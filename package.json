@@ -1,0 +1,13 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "Professional business website based on Arsha template",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . --listen 3000"
+  },
+  "keywords": ["website", "bootstrap", "business"],
+  "author": "Your Name",
+  "license": "MIT"
+}
