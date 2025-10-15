@@ -1133,83 +1133,175 @@
 
   <!-- Quote Modal -->
   <div class="modal fade" id="quoteModal" tabindex="-1" aria-labelledby="quoteModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-xl">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="quoteModalLabel">Get Approx Quote</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-header bg-primary text-white">
+          <h4 class="modal-title" id="quoteModalLabel">
+            <i class="bi bi-calculator me-2"></i>Get Approx Quote
+          </h4>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form id="quoteForm">
-            <div class="mb-3">
-              <label class="form-label">Service Type</label>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="serviceType" id="basic" value="Basic">
-                <label class="form-check-label" for="basic">
-                  Basic - ₹5,000
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="serviceType" id="moderate" value="Moderate">
-                <label class="form-check-label" for="moderate">
-                  Moderate - ₹10,000
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="serviceType" id="advance" value="Advance">
-                <label class="form-check-label" for="advance">
-                  Advance - ₹15,000
-                </label>
-              </div>
-            </div>
-            <div class="mb-3">
-              <label class="form-label">Add-Ons</label>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="payment" value="Payment Integration">
-                <label class="form-check-label" for="payment">
-                  Payment Integration
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="email" value="Email Integration">
-                <label class="form-check-label" for="email">
-                  Email Integration
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="chat" value="Chat/AI Integration">
-                <label class="form-check-label" for="chat">
-                  Chat/AI Integration
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="maintenance" value="Basic Maintenance">
-                <label class="form-check-label" for="maintenance">
-                  Basic Maintenance
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="support" value="Ongoing Support">
-                <label class="form-check-label" for="support">
-                  Ongoing Support
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="social" value="Social Commerce">
-                <label class="form-check-label" for="social">
-                  Social Commerce
-                </label>
+          <div class="row">
+            <!-- Service Selection -->
+            <div class="col-md-6">
+              <div class="card border-primary mb-4">
+                <div class="card-header bg-light">
+                  <h5 class="mb-0"><i class="bi bi-gear me-2"></i>Choose Your Service Package</h5>
+                </div>
+                <div class="card-body">
+                  <div class="mb-3">
+                    <div class="form-check mb-3 p-3 border rounded">
+                      <input class="form-check-input" type="radio" name="serviceType" id="basic" value="Basic">
+                      <label class="form-check-label w-100" for="basic">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div>
+                            <strong>Basic Package</strong>
+                            <br><small class="text-muted">Perfect for small businesses and startups</small>
+                          </div>
+                          <div class="text-end">
+                            <span class="h5 text-primary mb-0">₹5,000</span>
+                            <br><small class="text-muted">7-10 days</small>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-check mb-3 p-3 border rounded">
+                      <input class="form-check-input" type="radio" name="serviceType" id="moderate" value="Moderate">
+                      <label class="form-check-label w-100" for="moderate">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div>
+                            <strong>Moderate Package</strong>
+                            <br><small class="text-muted">Ideal for growing businesses with multiple pages</small>
+                          </div>
+                          <div class="text-end">
+                            <span class="h5 text-primary mb-0">₹10,000</span>
+                            <br><small class="text-muted">14-18 days</small>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form-check mb-3 p-3 border rounded">
+                      <input class="form-check-input" type="radio" name="serviceType" id="advance" value="Advance">
+                      <label class="form-check-label w-100" for="advance">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div>
+                            <strong>Advance Package</strong>
+                            <br><small class="text-muted">Complete solution with app development</small>
+                          </div>
+                          <div class="text-end">
+                            <span class="h5 text-primary mb-0">₹15,000</span>
+                            <br><small class="text-muted">21-25 days</small>
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="mb-3">
-              <label class="form-label">Estimated Price</label>
-              <div id="quotePrice" class="h4 text-primary">₹0</div>
+
+            <!-- Add-ons Selection -->
+            <div class="col-md-6">
+              <div class="card border-success mb-4">
+                <div class="card-header bg-light">
+                  <h5 class="mb-0"><i class="bi bi-plus-circle me-2"></i>Enhance Your Package</h5>
+                  <small class="text-muted">Select additional features</small>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" id="payment" value="Payment Integration">
+                        <label class="form-check-label" for="payment">
+                          <strong>Payment Integration</strong>
+                          <br><small class="text-muted">₹2,000</small>
+                        </label>
+                      </div>
+                      <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" id="email" value="Email Integration">
+                        <label class="form-check-label" for="email">
+                          <strong>Email Integration</strong>
+                          <br><small class="text-muted">₹1,500</small>
+                        </label>
+                      </div>
+                      <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" id="chat" value="Chat/AI Integration">
+                        <label class="form-check-label" for="chat">
+                          <strong>Chat/AI Integration</strong>
+                          <br><small class="text-muted">₹3,000</small>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" id="maintenance" value="Basic Maintenance">
+                        <label class="form-check-label" for="maintenance">
+                          <strong>Basic Maintenance</strong>
+                          <br><small class="text-muted">₹1,000/month</small>
+                        </label>
+                      </div>
+                      <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" id="support" value="Ongoing Support">
+                        <label class="form-check-label" for="support">
+                          <strong>Ongoing Support</strong>
+                          <br><small class="text-muted">₹2,500/month</small>
+                        </label>
+                      </div>
+                      <div class="form-check mb-2">
+                        <input class="form-check-input" type="checkbox" id="social" value="Social Commerce">
+                        <label class="form-check-label" for="social">
+                          <strong>Social Commerce</strong>
+                          <br><small class="text-muted">₹2,500</small>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </form>
+          </div>
+
+          <!-- Price Summary -->
+          <div class="card border-warning">
+            <div class="card-header bg-warning text-dark">
+              <h5 class="mb-0"><i class="bi bi-receipt me-2"></i>Quote Summary</h5>
+            </div>
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-md-8">
+                  <div class="mb-2">
+                    <strong>Base Package:</strong> <span id="basePackage">None selected</span>
+                  </div>
+                  <div class="mb-2">
+                    <strong>Add-ons:</strong> <span id="selectedAddons">None selected</span>
+                  </div>
+                  <div class="mb-2">
+                    <strong>Estimated Timeline:</strong> <span id="estimatedTime">-</span>
+                  </div>
+                  <div class="text-muted small">
+                    <i class="bi bi-info-circle me-1"></i>
+                    *Prices are approximate and may vary based on specific requirements
+                  </div>
+                </div>
+                <div class="col-md-4 text-center">
+                  <div class="border rounded p-3 bg-light">
+                    <div class="text-muted small mb-1">Total Estimated Cost</div>
+                    <div id="quotePrice" class="h2 text-success mb-0">₹0</div>
+                    <div class="text-muted small mt-1">+ GST as applicable</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" onclick="proceedToContact()">Proceed to Contact</button>
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+            <i class="bi bi-x-circle me-1"></i>Close
+          </button>
+          <button type="button" class="btn btn-success btn-lg" onclick="proceedToContact()">
+            <i class="bi bi-envelope me-1"></i>Proceed to Contact
+          </button>
         </div>
       </div>
     </div>
@@ -1241,21 +1333,69 @@
       Advance: 15000
     };
 
+    const addonPrices = {
+      'Payment Integration': 2000,
+      'Email Integration': 1500,
+      'Chat/AI Integration': 3000,
+      'Basic Maintenance': 1000, // monthly
+      'Ongoing Support': 2500, // monthly
+      'Social Commerce': 2500
+    };
+
+    const timelines = {
+      Basic: '7-10 days',
+      Moderate: '14-18 days',
+      Advance: '21-25 days'
+    };
+
     document.querySelectorAll('input[name="serviceType"]').forEach(radio => {
-      radio.addEventListener('change', updatePrice);
+      radio.addEventListener('change', updateQuote);
     });
 
-    function updatePrice() {
+    document.querySelectorAll('#quoteModal input[type="checkbox"]').forEach(checkbox => {
+      checkbox.addEventListener('change', updateQuote);
+    });
+
+    function updateQuote() {
       const selectedService = document.querySelector('input[name="serviceType"]:checked');
+      const selectedAddons = Array.from(document.querySelectorAll('#quoteModal input[type="checkbox"]:checked'));
+
+      let totalPrice = 0;
+      let basePackage = 'None selected';
+      let estimatedTime = '-';
+      let addonList = [];
+
+      // Calculate base package
       if (selectedService) {
-        const price = prices[selectedService.value];
-        document.getElementById('quotePrice').textContent = '₹' + price.toLocaleString();
-      } else {
-        document.getElementById('quotePrice').textContent = '₹0';
+        totalPrice += prices[selectedService.value];
+        basePackage = `${selectedService.value} Package - ₹${prices[selectedService.value].toLocaleString()}`;
+        estimatedTime = timelines[selectedService.value];
       }
+
+      // Calculate add-ons
+      selectedAddons.forEach(addon => {
+        const addonName = addon.value;
+        const addonPrice = addonPrices[addonName];
+        totalPrice += addonPrice;
+        addonList.push(`${addonName} (+₹${addonPrice.toLocaleString()})`);
+      });
+
+      // Update display
+      document.getElementById('basePackage').textContent = basePackage;
+      document.getElementById('selectedAddons').textContent = addonList.length > 0 ? addonList.join(', ') : 'None selected';
+      document.getElementById('estimatedTime').textContent = estimatedTime;
+      document.getElementById('quotePrice').textContent = '₹' + totalPrice.toLocaleString();
     }
 
     function proceedToContact() {
+      const selectedService = document.querySelector('input[name="serviceType"]:checked');
+      const selectedAddons = Array.from(document.querySelectorAll('#quoteModal input[type="checkbox"]:checked'));
+
+      if (!selectedService) {
+        alert('Please select a service package to proceed.');
+        return;
+      }
+
       // Close modal
       const modal = bootstrap.Modal.getInstance(document.getElementById('quoteModal'));
       modal.hide();
@@ -1263,18 +1403,26 @@
       // Scroll to contact section
       document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
 
-      // Optionally, populate the contact form with selected options
-      const selectedService = document.querySelector('input[name="serviceType"]:checked');
-      const selectedAddons = Array.from(document.querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
+      // Populate contact form
+      const addonDetails = selectedAddons.map(addon => `${addon.value} (+₹${addonPrices[addon.value].toLocaleString()})`);
+      const totalPrice = prices[selectedService.value] + selectedAddons.reduce((sum, addon) => sum + addonPrices[addon.value], 0);
 
-      if (selectedService) {
-        const messageField = document.getElementById('message-field');
-        let message = `Interested in ${selectedService.value} service.`;
-        if (selectedAddons.length > 0) {
-          message += ` Add-ons: ${selectedAddons.join(', ')}.`;
-        }
-        messageField.value = message;
+      let message = `Service Package: ${selectedService.value} Package (₹${prices[selectedService.value].toLocaleString()})\n`;
+      message += `Estimated Timeline: ${timelines[selectedService.value]}\n`;
+
+      if (addonDetails.length > 0) {
+        message += `Add-ons: ${addonDetails.join(', ')}\n`;
       }
+
+      message += `Total Estimated Cost: ₹${totalPrice.toLocaleString()} + GST\n\n`;
+      message += `Please provide more details about your project requirements.`;
+
+      document.getElementById('message-field').value = message;
+
+      // Show success message
+      setTimeout(() => {
+        alert('Quote details have been added to the contact form. Please review and submit your inquiry.');
+      }, 1000);
     }
 
     function submitGetStarted() {
