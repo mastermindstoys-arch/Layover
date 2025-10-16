@@ -1,0 +1,1737 @@
+[Thu Oct 16 21:39:56 2025] PHP 8.4.11 Development Server (http://localhost:8000) started
+[Thu Oct 16 21:39:59 2025] [::1]:51737 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51737 [200]: GET /
+[Thu Oct 16 21:39:59 2025] [::1]:51738 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51737 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51738 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 21:39:59 2025] [::1]:51739 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51738 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51740 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51739 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 21:39:59 2025] [::1]:51741 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51740 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 21:39:59 2025] [::1]:51742 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51739 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51741 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 21:39:59 2025] [::1]:51743 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51742 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 21:39:59 2025] [::1]:51740 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51743 [200]: GET /assets/css/main.css
+[Thu Oct 16 21:39:59 2025] [::1]:51741 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51742 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51743 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51744 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51745 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51746 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51747 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51748 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51744 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 21:39:59 2025] [::1]:51745 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 21:39:59 2025] [::1]:51746 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 21:39:59 2025] [::1]:51747 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 21:39:59 2025] [::1]:51748 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 21:39:59 2025] [::1]:51749 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51744 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51749 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 21:39:59 2025] [::1]:51745 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51746 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51747 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51748 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51750 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51751 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51749 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51752 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51753 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51754 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51750 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 21:39:59 2025] [::1]:51751 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 21:39:59 2025] [::1]:51755 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51752 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 21:39:59 2025] [::1]:51750 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51751 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51753 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 21:39:59 2025] [::1]:51754 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 21:39:59 2025] [::1]:51755 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 21:39:59 2025] [::1]:51756 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51752 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51754 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51755 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51757 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51753 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51756 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 21:39:59 2025] [::1]:51758 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51757 [200]: GET /assets/js/main.js
+[Thu Oct 16 21:39:59 2025] [::1]:51759 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51758 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 21:39:59 2025] [::1]:51760 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51759 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 21:39:59 2025] [::1]:51756 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51757 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51760 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 21:39:59 2025] [::1]:51758 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51759 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51760 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51761 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51761 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 21:39:59 2025] [::1]:51761 Closing
+[Thu Oct 16 21:39:59 2025] [::1]:51762 Accepted
+[Thu Oct 16 21:39:59 2025] [::1]:51762 [200]: GET /assets/img/logo.png
+[Thu Oct 16 21:39:59 2025] [::1]:51762 Closing
+[Thu Oct 16 21:40:05 2025] [::1]:51766 Accepted
+[Thu Oct 16 21:40:05 2025] [::1]:51766 [200]: GET /
+[Thu Oct 16 21:40:05 2025] [::1]:51766 Closing
+[Thu Oct 16 21:40:11 2025] [::1]:51769 Accepted
+[Thu Oct 16 21:40:11 2025] [::1]:51769 [400]: POST /backend/submit_get_started.php
+[Thu Oct 16 21:40:11 2025] [::1]:51769 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51774 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51774 [200]: GET /
+[Thu Oct 16 21:40:26 2025] [::1]:51774 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51775 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51776 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51775 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 21:40:26 2025] [::1]:51775 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51776 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 21:40:26 2025] [::1]:51776 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51777 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51778 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51779 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51777 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 21:40:26 2025] [::1]:51778 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 21:40:26 2025] [::1]:51777 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51778 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51780 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51779 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 21:40:26 2025] [::1]:51779 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51781 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51780 [200]: GET /assets/css/main.css
+[Thu Oct 16 21:40:26 2025] [::1]:51780 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51782 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51781 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 21:40:26 2025] [::1]:51783 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51782 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 21:40:26 2025] [::1]:51781 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51782 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51784 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51783 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 21:40:26 2025] [::1]:51785 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51783 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51784 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 21:40:26 2025] [::1]:51786 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51784 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51785 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 21:40:26 2025] [::1]:51787 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51785 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51786 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 21:40:26 2025] [::1]:51788 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51786 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51787 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 21:40:26 2025] [::1]:51789 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51787 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51788 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 21:40:26 2025] [::1]:51790 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51788 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51789 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 21:40:26 2025] [::1]:51789 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51791 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51790 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 21:40:26 2025] [::1]:51792 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51791 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 21:40:26 2025] [::1]:51793 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51790 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51791 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51792 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 21:40:26 2025] [::1]:51794 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51792 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51793 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 21:40:26 2025] [::1]:51795 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51794 [200]: GET /assets/js/main.js
+[Thu Oct 16 21:40:26 2025] [::1]:51796 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51795 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 21:40:26 2025] [::1]:51793 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51797 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51794 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51796 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 21:40:26 2025] [::1]:51795 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51796 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51797 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 21:40:26 2025] [::1]:51797 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51798 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51798 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 21:40:26 2025] [::1]:51798 Closing
+[Thu Oct 16 21:40:26 2025] [::1]:51799 Accepted
+[Thu Oct 16 21:40:26 2025] [::1]:51799 [200]: GET /assets/img/logo.png
+[Thu Oct 16 21:40:26 2025] [::1]:51799 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51914 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51914 [200]: GET /
+[Thu Oct 16 21:48:02 2025] [::1]:51914 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51915 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51915 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 21:48:02 2025] [::1]:51916 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51917 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51915 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51916 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 21:48:02 2025] [::1]:51918 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51917 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 21:48:02 2025] [::1]:51919 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51918 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 21:48:02 2025] [::1]:51920 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51916 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51919 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 21:48:02 2025] [::1]:51917 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51920 [200]: GET /assets/css/main.css
+[Thu Oct 16 21:48:02 2025] [::1]:51918 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51921 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51919 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51922 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51920 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51923 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51921 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 21:48:02 2025] [::1]:51922 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 21:48:02 2025] [::1]:51924 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51921 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51925 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51922 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51923 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 21:48:02 2025] [::1]:51924 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 21:48:02 2025] [::1]:51926 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51925 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 21:48:02 2025] [::1]:51927 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51926 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 21:48:02 2025] [::1]:51928 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51923 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51924 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51927 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 21:48:02 2025] [::1]:51925 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51926 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51927 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51929 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51930 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51928 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 21:48:02 2025] [::1]:51929 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 21:48:02 2025] [::1]:51928 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51931 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51929 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51930 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 21:48:02 2025] [::1]:51932 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51931 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 21:48:02 2025] [::1]:51933 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51930 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51932 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 21:48:02 2025] [::1]:51934 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51931 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51932 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51933 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 21:48:02 2025] [::1]:51935 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51934 [200]: GET /assets/js/main.js
+[Thu Oct 16 21:48:02 2025] [::1]:51936 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51935 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 21:48:02 2025] [::1]:51937 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51936 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 21:48:02 2025] [::1]:51933 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51934 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51937 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 21:48:02 2025] [::1]:51935 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51936 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51937 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51938 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51938 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 21:48:02 2025] [::1]:51938 Closing
+[Thu Oct 16 21:48:02 2025] [::1]:51939 Accepted
+[Thu Oct 16 21:48:02 2025] [::1]:51939 [200]: GET /assets/img/logo.png
+[Thu Oct 16 21:48:02 2025] [::1]:51939 Closing
+[Thu Oct 16 21:49:08 2025] [::1]:51949 Accepted
+[Thu Oct 16 21:49:08 2025] [::1]:51950 Accepted
+[Thu Oct 16 21:49:08 2025] [::1]:51951 Accepted
+[Thu Oct 16 21:49:08 2025] [::1]:51949 [200]: GET /assets/img/steps/steps-1.webp
+[Thu Oct 16 21:49:08 2025] [::1]:51950 [200]: GET /assets/img/steps/steps-2.webp
+[Thu Oct 16 21:49:08 2025] [::1]:51951 [200]: GET /assets/img/steps/steps-3.webp
+[Thu Oct 16 21:49:08 2025] [::1]:51949 Closing
+[Thu Oct 16 21:49:08 2025] [::1]:51950 Closing
+[Thu Oct 16 21:49:08 2025] [::1]:51951 Closing
+[Thu Oct 16 21:52:33 2025] [::1]:51964 Accepted
+[Thu Oct 16 21:52:33 2025] [::1]:51965 Accepted
+[Thu Oct 16 21:52:33 2025] [::1]:51964 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 21:52:33 2025] [::1]:51966 Accepted
+[Thu Oct 16 21:52:33 2025] [::1]:51965 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 21:52:33 2025] [::1]:51967 Accepted
+[Thu Oct 16 21:52:33 2025] [::1]:51966 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 21:52:33 2025] [::1]:51968 Accepted
+[Thu Oct 16 21:52:33 2025] [::1]:51967 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 21:52:33 2025] [::1]:51969 Accepted
+[Thu Oct 16 21:52:33 2025] [::1]:51964 Closing
+[Thu Oct 16 21:52:33 2025] [::1]:51965 Closing
+[Thu Oct 16 21:52:33 2025] [::1]:51968 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 21:52:33 2025] [::1]:51966 Closing
+[Thu Oct 16 21:52:33 2025] [::1]:51969 [200]: GET /assets/css/main.css
+[Thu Oct 16 21:52:33 2025] [::1]:51967 Closing
+[Thu Oct 16 21:52:33 2025] [::1]:51968 Closing
+[Thu Oct 16 21:52:33 2025] [::1]:51969 Closing
+[Thu Oct 16 21:52:33 2025] [::1]:51972 Accepted
+[Thu Oct 16 21:52:33 2025] [::1]:51972 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[Thu Oct 16 21:52:33 2025] [::1]:51972 Closing
+[Thu Oct 16 21:52:33 2025] [::1]:51973 Accepted
+[Thu Oct 16 21:52:33 2025] [::1]:51973 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[Thu Oct 16 21:52:33 2025] [::1]:51974 Accepted
+[Thu Oct 16 21:52:33 2025] [::1]:51974 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js.map
+[Thu Oct 16 21:52:33 2025] [::1]:51973 Closing
+[Thu Oct 16 21:52:33 2025] [::1]:51974 Closing
+[Thu Oct 16 21:52:33 2025] [::1]:51975 Accepted
+[Thu Oct 16 21:52:33 2025] [::1]:51975 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[Thu Oct 16 21:52:33 2025] [::1]:51975 Closing
+[Thu Oct 16 21:54:45 2025] [::1]:52526 Accepted
+[Thu Oct 16 21:54:45 2025] [::1]:52526 [429]: POST /backend/submit_get_started.php
+[Thu Oct 16 21:54:45 2025] [::1]:52526 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52931 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52931 [200]: GET /
+[Thu Oct 16 21:56:19 2025] [::1]:52931 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52932 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52933 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52932 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 21:56:19 2025] [::1]:52934 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52933 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[Thu Oct 16 21:56:19 2025] [::1]:52935 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52932 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52934 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 21:56:19 2025] [::1]:52936 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52935 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 21:56:19 2025] [::1]:52937 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52933 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52936 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 21:56:19 2025] [::1]:52934 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52937 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 21:56:19 2025] [::1]:52935 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52936 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52937 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52938 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52939 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52940 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52941 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52938 [200]: GET /assets/css/main.css
+[Thu Oct 16 21:56:19 2025] [::1]:52939 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 21:56:19 2025] [::1]:52940 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 21:56:19 2025] [::1]:52941 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 21:56:19 2025] [::1]:52942 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52938 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52943 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52939 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52940 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52941 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52942 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 21:56:19 2025] [::1]:52942 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52944 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52945 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52946 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52947 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52943 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 21:56:19 2025] [::1]:52944 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 21:56:19 2025] [::1]:52945 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 21:56:19 2025] [::1]:52946 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 21:56:19 2025] [::1]:52943 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52948 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52944 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52945 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52946 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52947 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 21:56:19 2025] [::1]:52949 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52948 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 21:56:19 2025] [::1]:52947 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52950 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52949 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 21:56:19 2025] [::1]:52951 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52950 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 21:56:19 2025] [::1]:52952 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52951 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 21:56:19 2025] [::1]:52953 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52948 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52949 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52952 [200]: GET /assets/js/main.js
+[Thu Oct 16 21:56:19 2025] [::1]:52950 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52953 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 21:56:19 2025] [::1]:52951 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52952 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52953 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52954 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52955 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52954 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 21:56:19 2025] [::1]:52955 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 21:56:19 2025] [::1]:52954 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52955 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52956 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52956 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 21:56:19 2025] [::1]:52957 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52957 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[Thu Oct 16 21:56:19 2025] [::1]:52956 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52957 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52958 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52959 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52958 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[Thu Oct 16 21:56:19 2025] [::1]:52959 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js.map
+[Thu Oct 16 21:56:19 2025] [::1]:52958 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52959 Closing
+[Thu Oct 16 21:56:19 2025] [::1]:52960 Accepted
+[Thu Oct 16 21:56:19 2025] [::1]:52960 [200]: GET /assets/img/logo.png
+[Thu Oct 16 21:56:19 2025] [::1]:52960 Closing
+[Thu Oct 16 21:59:48 2025] [::1]:53854 Accepted
+[Thu Oct 16 21:59:48 2025] [::1]:53854 [200]: GET /
+[Thu Oct 16 21:59:48 2025] [::1]:53854 Closing
+[Thu Oct 16 21:59:48 2025] [::1]:53855 Accepted
+[Thu Oct 16 21:59:48 2025] [::1]:53856 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53855 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 21:59:49 2025] [::1]:53856 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 21:59:49 2025] [::1]:53857 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53855 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53856 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53858 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53857 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 21:59:49 2025] [::1]:53857 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53859 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53858 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 21:59:49 2025] [::1]:53860 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53858 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53859 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 21:59:49 2025] [::1]:53861 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53859 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53860 [200]: GET /assets/css/main.css
+[Thu Oct 16 21:59:49 2025] [::1]:53860 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53862 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53861 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 21:59:49 2025] [::1]:53861 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53862 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 21:59:49 2025] [::1]:53862 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53863 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53863 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[Thu Oct 16 21:59:49 2025] [::1]:53864 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53863 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53865 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53866 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53864 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 21:59:49 2025] [::1]:53867 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53865 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 21:59:49 2025] [::1]:53866 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 21:59:49 2025] [::1]:53864 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53868 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53865 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53866 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53867 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 21:59:49 2025] [::1]:53867 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53869 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53868 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 21:59:49 2025] [::1]:53870 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53869 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 21:59:49 2025] [::1]:53868 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53871 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53872 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53869 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53871 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 21:59:49 2025] [::1]:53870 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 21:59:49 2025] [::1]:53873 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53872 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 21:59:49 2025] [::1]:53874 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53873 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 21:59:49 2025] [::1]:53875 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53870 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53874 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 21:59:49 2025] [::1]:53876 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53871 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53872 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53875 [200]: GET /assets/js/main.js
+[Thu Oct 16 21:59:49 2025] [::1]:53877 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53873 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53878 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53876 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 21:59:49 2025] [::1]:53874 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53875 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53877 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 21:59:49 2025] [::1]:53878 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 21:59:49 2025] [::1]:53876 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53877 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53878 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53879 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53880 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53879 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 21:59:49 2025] [::1]:53880 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[Thu Oct 16 21:59:49 2025] [::1]:53881 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53881 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[Thu Oct 16 21:59:49 2025] [::1]:53879 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53880 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53881 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53882 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53882 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js.map
+[Thu Oct 16 21:59:49 2025] [::1]:53882 Closing
+[Thu Oct 16 21:59:49 2025] [::1]:53883 Accepted
+[Thu Oct 16 21:59:49 2025] [::1]:53883 [200]: GET /assets/img/logo.png
+[Thu Oct 16 21:59:49 2025] [::1]:53883 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54529 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54529 [200]: GET /
+[Thu Oct 16 22:02:18 2025] [::1]:54530 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54529 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54530 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:02:18 2025] [::1]:54530 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54531 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54532 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54531 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:02:18 2025] [::1]:54531 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54533 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54532 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:02:18 2025] [::1]:54532 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54534 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54533 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:02:18 2025] [::1]:54533 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54535 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54534 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:02:18 2025] [::1]:54534 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54536 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54535 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:02:18 2025] [::1]:54535 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54537 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54536 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:02:18 2025] [::1]:54537 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:02:18 2025] [::1]:54536 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54537 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54538 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54538 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[Thu Oct 16 22:02:18 2025] [::1]:54538 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54539 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54540 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54539 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:02:18 2025] [::1]:54541 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54539 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54540 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:02:18 2025] [::1]:54542 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54540 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54541 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:02:18 2025] [::1]:54541 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54543 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54542 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:02:18 2025] [::1]:54544 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54542 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54543 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:02:18 2025] [::1]:54545 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54543 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54544 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:02:18 2025] [::1]:54546 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54544 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54545 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:02:18 2025] [::1]:54547 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54546 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:02:18 2025] [::1]:54545 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54548 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54547 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:02:18 2025] [::1]:54549 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54548 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:02:18 2025] [::1]:54550 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54549 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:02:18 2025] [::1]:54551 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54546 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54547 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54550 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:02:18 2025] [::1]:54548 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54551 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:02:18 2025] [::1]:54552 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54549 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54553 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54550 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54551 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54552 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:02:18 2025] [::1]:54553 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:02:18 2025] [::1]:54552 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54553 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54554 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54555 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54554 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:02:18 2025] [::1]:54555 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[Thu Oct 16 22:02:18 2025] [::1]:54554 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54555 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54556 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54557 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54556 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[Thu Oct 16 22:02:18 2025] [::1]:54557 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js.map
+[Thu Oct 16 22:02:18 2025] [::1]:54556 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54557 Closing
+[Thu Oct 16 22:02:18 2025] [::1]:54558 Accepted
+[Thu Oct 16 22:02:18 2025] [::1]:54558 [200]: GET /assets/img/logo.png
+[Thu Oct 16 22:02:18 2025] [::1]:54558 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55350 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55350 [200]: GET /?id=3062c36b-4117-438b-922b-913fd6e4795f&vscodeBrowserReqId=1760632526219
+[Thu Oct 16 22:05:26 2025] [::1]:55350 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55351 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55352 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55353 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55354 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55355 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55356 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55351 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:05:26 2025] [::1]:55352 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:05:26 2025] [::1]:55353 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:05:26 2025] [::1]:55354 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:05:26 2025] [::1]:55355 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:05:26 2025] [::1]:55356 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:05:26 2025] [::1]:55351 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55352 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55353 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55354 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55355 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55356 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55357 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55358 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55357 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:05:26 2025] [::1]:55358 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:05:26 2025] [::1]:55359 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55357 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55358 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55360 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55361 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55359 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:05:26 2025] [::1]:55362 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55360 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:05:26 2025] [::1]:55361 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:05:26 2025] [::1]:55362 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:05:26 2025] [::1]:55363 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55359 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55360 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55361 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55363 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:05:26 2025] [::1]:55364 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55362 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55365 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55364 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:05:26 2025] [::1]:55363 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55366 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55366 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:05:26 2025] [::1]:55364 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55365 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:05:26 2025] [::1]:55367 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55368 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55365 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55367 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:05:26 2025] [::1]:55369 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55366 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55368 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:05:26 2025] [::1]:55370 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55369 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:05:26 2025] [::1]:55367 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55370 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:05:26 2025] [::1]:55371 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55368 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55372 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55369 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55371 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:05:26 2025] [::1]:55373 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55372 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:05:26 2025] [::1]:55370 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55373 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:05:26 2025] [::1]:55371 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55372 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55373 Closing
+[Thu Oct 16 22:05:26 2025] [::1]:55375 Accepted
+[Thu Oct 16 22:05:26 2025] [::1]:55375 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:05:26 2025] [::1]:55375 Closing
+[Thu Oct 16 22:05:52 2025] [::1]:55496 Accepted
+[Thu Oct 16 22:05:52 2025] [::1]:55496 [400]: POST /backend/submit_get_started.php
+[Thu Oct 16 22:05:52 2025] [::1]:55496 Closing
+[Thu Oct 16 22:07:47 2025] [::1]:55969 Accepted
+[Thu Oct 16 22:07:47 2025] Failed to log activity: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'layover.activity_log' doesn't exist
+[Thu Oct 16 22:07:47 2025] [::1]:55969 [200]: POST /backend/submit_get_started.php
+[Thu Oct 16 22:07:47 2025] [::1]:55969 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56238 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56238 [200]: GET /
+[Thu Oct 16 22:08:52 2025] [::1]:56238 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56239 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56240 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56239 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:08:52 2025] [::1]:56241 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56240 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:08:52 2025] [::1]:56242 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56239 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56241 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:08:52 2025] [::1]:56243 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56242 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:08:52 2025] [::1]:56244 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56240 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56243 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:08:52 2025] [::1]:56241 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56244 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:08:52 2025] [::1]:56242 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56245 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56243 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56246 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56244 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56247 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56245 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:08:52 2025] [::1]:56247 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[Thu Oct 16 22:08:52 2025] [::1]:56246 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:08:52 2025] [::1]:56245 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56248 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56247 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56246 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56249 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56248 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:08:52 2025] [::1]:56250 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56249 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:08:52 2025] [::1]:56248 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56251 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56249 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56250 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:08:52 2025] [::1]:56250 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56252 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56251 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:08:52 2025] [::1]:56253 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56251 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56252 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:08:52 2025] [::1]:56254 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56253 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:08:52 2025] [::1]:56255 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56252 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56254 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:08:52 2025] [::1]:56253 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56255 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:08:52 2025] [::1]:56256 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56254 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56257 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56255 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56256 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:08:52 2025] [::1]:56256 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56258 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56257 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:08:52 2025] [::1]:56259 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56258 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:08:52 2025] [::1]:56260 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56257 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56261 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56258 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56259 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:08:52 2025] [::1]:56260 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:08:52 2025] [::1]:56262 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56261 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:08:52 2025] [::1]:56259 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56260 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56261 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56262 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:08:52 2025] [::1]:56262 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56263 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56263 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:08:52 2025] [::1]:56264 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56263 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56264 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[Thu Oct 16 22:08:52 2025] [::1]:56264 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56265 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56266 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56265 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[Thu Oct 16 22:08:52 2025] [::1]:56266 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js.map
+[Thu Oct 16 22:08:52 2025] [::1]:56265 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56266 Closing
+[Thu Oct 16 22:08:52 2025] [::1]:56267 Accepted
+[Thu Oct 16 22:08:52 2025] [::1]:56267 [200]: GET /assets/img/logo.png
+[Thu Oct 16 22:08:52 2025] [::1]:56267 Closing
+[Thu Oct 16 22:09:13 2025] [::1]:56352 Accepted
+[Thu Oct 16 22:09:13 2025] Failed to log activity: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'layover.activity_log' doesn't exist
+[Thu Oct 16 22:09:13 2025] [::1]:56352 [200]: POST /backend/submit_get_started.php
+[Thu Oct 16 22:09:13 2025] [::1]:56352 Closing
+[Thu Oct 16 22:21:51 2025] [::1]:57199 Accepted
+[Thu Oct 16 22:21:51 2025] [::1]:57199 [200]: GET /assets/img/steps/steps-1.webp
+[Thu Oct 16 22:21:51 2025] [::1]:57199 Closing
+[Thu Oct 16 22:21:51 2025] [::1]:57200 Accepted
+[Thu Oct 16 22:21:51 2025] [::1]:57200 [200]: GET /assets/img/steps/steps-2.webp
+[Thu Oct 16 22:21:51 2025] [::1]:57200 Closing
+[Thu Oct 16 22:21:51 2025] [::1]:57201 Accepted
+[Thu Oct 16 22:21:51 2025] [::1]:57201 [200]: GET /assets/img/steps/steps-3.webp
+[Thu Oct 16 22:21:51 2025] [::1]:57201 Closing
+[Thu Oct 16 22:24:26 2025] [::1]:57842 Accepted
+[Thu Oct 16 22:24:26 2025] Database error in contact handler: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'layover.contact' doesn't exist
+[Thu Oct 16 22:24:26 2025] [::1]:57842 [500]: POST /backend/submit_contact.php
+[Thu Oct 16 22:24:26 2025] [::1]:57842 Closing
+[Thu Oct 16 22:26:20 2025] [::1]:58326 Accepted
+[Thu Oct 16 22:26:20 2025] Failed to log activity: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'layover.activity_log' doesn't exist
+[Thu Oct 16 22:26:20 2025] [::1]:58326 [200]: POST /backend/submit_contact.php
+[Thu Oct 16 22:26:20 2025] [::1]:58326 Closing
+[Thu Oct 16 22:26:50 2025] [::1]:58453 Accepted
+[Thu Oct 16 22:26:50 2025] Failed to log activity: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'layover.activity_log' doesn't exist
+[Thu Oct 16 22:26:50 2025] [::1]:58453 [200]: POST /backend/submit_get_started.php
+[Thu Oct 16 22:26:50 2025] [::1]:58453 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58560 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58560 [200]: GET /
+[Thu Oct 16 22:27:14 2025] [::1]:58560 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58561 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58561 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:27:14 2025] [::1]:58562 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58561 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58563 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58562 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:27:14 2025] [::1]:58564 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58562 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58563 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:27:14 2025] [::1]:58565 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58563 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58564 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:27:14 2025] [::1]:58566 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58565 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:27:14 2025] [::1]:58564 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58567 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58565 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58566 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:27:14 2025] [::1]:58566 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58568 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58567 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:27:14 2025] [::1]:58567 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58568 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:27:14 2025] [::1]:58569 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58568 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58570 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58569 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:27:14 2025] [::1]:58571 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58569 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58570 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:27:14 2025] [::1]:58572 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58570 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58571 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:27:14 2025] [::1]:58573 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58571 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58572 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:27:14 2025] [::1]:58574 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58572 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58573 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:27:14 2025] [::1]:58575 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58573 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58574 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:27:14 2025] [::1]:58575 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:27:14 2025] [::1]:58574 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58576 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58575 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58577 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58576 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:27:14 2025] [::1]:58578 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58577 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:27:14 2025] [::1]:58579 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58578 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:27:14 2025] [::1]:58580 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58576 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58577 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58579 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:27:14 2025] [::1]:58581 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58580 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:27:14 2025] [::1]:58582 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58581 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:27:14 2025] [::1]:58578 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58583 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58582 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:27:14 2025] [::1]:58579 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58583 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:27:14 2025] [::1]:58580 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58584 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58581 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58584 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[Thu Oct 16 22:27:14 2025] [::1]:58582 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58583 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58584 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58585 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58585 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[Thu Oct 16 22:27:14 2025] [::1]:58586 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58585 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58586 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:27:14 2025] [::1]:58586 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58587 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58587 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[Thu Oct 16 22:27:14 2025] [::1]:58588 Accepted
+[Thu Oct 16 22:27:14 2025] [::1]:58587 Closing
+[Thu Oct 16 22:27:14 2025] [::1]:58588 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js.map
+[Thu Oct 16 22:27:14 2025] [::1]:58588 Closing
+[Thu Oct 16 22:27:15 2025] [::1]:58589 Accepted
+[Thu Oct 16 22:27:15 2025] [::1]:58589 [200]: GET /assets/img/logo.png
+[Thu Oct 16 22:27:15 2025] [::1]:58589 Closing
+[Thu Oct 16 22:27:32 2025] [::1]:58660 Accepted
+[Thu Oct 16 22:27:32 2025] Failed to log activity: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'layover.activity_log' doesn't exist
+[Thu Oct 16 22:27:32 2025] [::1]:58660 [200]: POST /backend/submit_contact.php
+[Thu Oct 16 22:27:32 2025] [::1]:58660 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58776 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58776 [200]: GET /?id=3062c36b-4117-438b-922b-913fd6e4795f&vscodeBrowserReqId=1760633880412
+[Thu Oct 16 22:28:00 2025] [::1]:58776 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58777 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58778 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58779 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58780 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58781 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58782 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58777 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:28:00 2025] [::1]:58778 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:28:00 2025] [::1]:58777 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58779 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:28:00 2025] [::1]:58778 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58780 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:28:00 2025] [::1]:58781 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:28:00 2025] [::1]:58782 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:28:00 2025] [::1]:58779 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58780 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58781 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58782 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58783 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58784 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58785 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58786 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58787 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58783 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:28:00 2025] [::1]:58788 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58784 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:28:00 2025] [::1]:58785 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:28:00 2025] [::1]:58786 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:28:00 2025] [::1]:58787 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:28:00 2025] [::1]:58788 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:28:00 2025] [::1]:58783 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58789 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58784 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58785 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58786 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58787 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58790 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58788 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58791 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58792 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58789 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:28:00 2025] [::1]:58793 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58790 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:28:00 2025] [::1]:58791 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:28:00 2025] [::1]:58792 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:28:00 2025] [::1]:58793 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:28:00 2025] [::1]:58789 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58794 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58790 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58791 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58795 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58794 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:28:00 2025] [::1]:58792 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58793 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58796 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58795 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:28:00 2025] [::1]:58797 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58796 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:28:00 2025] [::1]:58798 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58794 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58797 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:28:00 2025] [::1]:58799 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58795 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58796 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58797 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58798 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:28:00 2025] [::1]:58799 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:28:00 2025] [::1]:58798 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58799 Closing
+[Thu Oct 16 22:28:00 2025] [::1]:58804 Accepted
+[Thu Oct 16 22:28:00 2025] [::1]:58804 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:28:00 2025] [::1]:58804 Closing
+[Thu Oct 16 22:28:17 2025] [::1]:58874 Accepted
+[Thu Oct 16 22:28:17 2025] Failed to log activity: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'layover.activity_log' doesn't exist
+[Thu Oct 16 22:28:17 2025] [::1]:58874 [200]: POST /backend/submit_contact.php
+[Thu Oct 16 22:28:17 2025] [::1]:58874 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59554 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59554 [200]: GET /
+[Thu Oct 16 22:34:36 2025] [::1]:59554 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59555 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59556 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59555 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[Thu Oct 16 22:34:36 2025] [::1]:59556 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:34:36 2025] [::1]:59555 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59557 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59558 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59557 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:34:36 2025] [::1]:59556 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59559 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59557 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59558 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:34:36 2025] [::1]:59560 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59559 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:34:36 2025] [::1]:59558 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59561 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59560 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:34:36 2025] [::1]:59562 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59561 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:34:36 2025] [::1]:59559 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59563 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59560 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59562 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:34:36 2025] [::1]:59564 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59561 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59563 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:34:36 2025] [::1]:59565 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59564 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:34:36 2025] [::1]:59566 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59565 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:34:36 2025] [::1]:59562 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59567 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59563 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59566 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:34:36 2025] [::1]:59567 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:34:36 2025] [::1]:59564 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59568 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59565 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59569 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59566 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59570 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59567 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59568 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:34:36 2025] [::1]:59569 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:34:36 2025] [::1]:59571 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59568 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59572 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59569 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59573 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59570 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:34:36 2025] [::1]:59572 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:34:36 2025] [::1]:59571 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:34:36 2025] [::1]:59574 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59573 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:34:36 2025] [::1]:59575 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59570 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59574 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:34:36 2025] [::1]:59576 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59572 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59575 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:34:36 2025] [::1]:59577 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59573 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59576 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:34:36 2025] [::1]:59571 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59578 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59577 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:34:36 2025] [::1]:59574 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59579 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59578 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:34:36 2025] [::1]:59575 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59579 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[Thu Oct 16 22:34:36 2025] [::1]:59576 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59577 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59578 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59579 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59580 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59580 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js.map
+[Thu Oct 16 22:34:36 2025] [::1]:59580 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59585 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59586 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59585 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:34:36 2025] [::1]:59586 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[Thu Oct 16 22:34:36 2025] [::1]:59585 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59586 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59587 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59587 [200]: GET /assets/img/logo.png
+[Thu Oct 16 22:34:36 2025] [::1]:59587 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59588 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59588 [200]: GET /assets/img/steps/steps-3.webp
+[Thu Oct 16 22:34:36 2025] [::1]:59588 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59589 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59589 [200]: GET /assets/img/steps/steps-2.webp
+[Thu Oct 16 22:34:36 2025] [::1]:59589 Closing
+[Thu Oct 16 22:34:36 2025] [::1]:59590 Accepted
+[Thu Oct 16 22:34:36 2025] [::1]:59590 [200]: GET /assets/img/steps/steps-1.webp
+[Thu Oct 16 22:34:36 2025] [::1]:59590 Closing
+[Thu Oct 16 22:34:52 2025] [::1]:59653 Accepted
+[Thu Oct 16 22:34:52 2025] Failed to log activity: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'layover.activity_log' doesn't exist
+[Thu Oct 16 22:34:52 2025] [::1]:59653 [200]: POST /backend/submit_contact.php
+[Thu Oct 16 22:34:52 2025] [::1]:59653 Closing
+[Thu Oct 16 22:38:03 2025] [::1]:60464 Accepted
+[Thu Oct 16 22:38:03 2025] [::1]:60464 [200]: GET /
+[Thu Oct 16 22:38:03 2025] [::1]:60464 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60562 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60562 [200]: GET /?id=ca36afd8-918f-4870-9537-3df6e62e4bd2&vscodeBrowserReqId=1760634505607
+[Thu Oct 16 22:38:25 2025] [::1]:60562 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60563 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60564 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60563 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:38:25 2025] [::1]:60565 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60564 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:38:25 2025] [::1]:60566 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60567 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60565 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:38:25 2025] [::1]:60566 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:38:25 2025] [::1]:60568 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60563 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60564 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60567 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:38:25 2025] [::1]:60568 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:38:25 2025] [::1]:60565 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60566 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60567 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60568 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60569 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60570 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60571 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60572 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60573 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60569 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:38:25 2025] [::1]:60570 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:38:25 2025] [::1]:60574 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60571 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:38:25 2025] [::1]:60572 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:38:25 2025] [::1]:60573 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:38:25 2025] [::1]:60574 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:38:25 2025] [::1]:60569 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60570 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60575 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60571 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60572 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60573 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60576 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60575 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:38:25 2025] [::1]:60574 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60577 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60575 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60578 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60576 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:38:25 2025] [::1]:60579 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60577 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:38:25 2025] [::1]:60578 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:38:25 2025] [::1]:60579 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:38:25 2025] [::1]:60580 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60576 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60581 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60577 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60580 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:38:25 2025] [::1]:60582 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60581 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:38:25 2025] [::1]:60579 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60578 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60580 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60581 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60583 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60584 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60582 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:38:25 2025] [::1]:60585 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60582 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60583 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:38:25 2025] [::1]:60584 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:38:25 2025] [::1]:60583 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60584 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60585 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:38:25 2025] [::1]:60585 Closing
+[Thu Oct 16 22:38:25 2025] [::1]:60586 Accepted
+[Thu Oct 16 22:38:25 2025] [::1]:60586 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:38:25 2025] [::1]:60586 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60656 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60656 [200]: GET /
+[Thu Oct 16 22:38:41 2025] [::1]:60657 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60656 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60657 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:38:41 2025] [::1]:60657 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60658 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60659 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60660 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60658 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:38:41 2025] [::1]:60658 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60661 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60659 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:38:41 2025] [::1]:60659 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60660 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:38:41 2025] [::1]:60662 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60660 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60661 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:38:41 2025] [::1]:60661 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60663 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60662 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:38:41 2025] [::1]:60662 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60664 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60663 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:38:41 2025] [::1]:60664 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:38:41 2025] [::1]:60665 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60666 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60663 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60665 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[Thu Oct 16 22:38:41 2025] [::1]:60667 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60664 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60666 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:38:41 2025] [::1]:60668 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60667 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:38:41 2025] [::1]:60669 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60668 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:38:41 2025] [::1]:60665 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60670 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60666 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60669 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:38:41 2025] [::1]:60670 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:38:41 2025] [::1]:60667 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60671 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60668 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60669 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60670 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60672 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60673 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60671 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:38:41 2025] [::1]:60674 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60675 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60671 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60676 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60672 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:38:41 2025] [::1]:60673 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:38:41 2025] [::1]:60676 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:38:41 2025] [::1]:60674 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:38:41 2025] [::1]:60675 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:38:41 2025] [::1]:60677 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60678 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60672 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60677 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:38:41 2025] [::1]:60679 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60673 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60676 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60674 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60675 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60678 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:38:41 2025] [::1]:60680 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60679 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:38:41 2025] [::1]:60680 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:38:41 2025] [::1]:60677 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60678 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60679 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60680 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60681 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60681 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:38:41 2025] [::1]:60681 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60682 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60682 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[Thu Oct 16 22:38:41 2025] [::1]:60682 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60683 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60683 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[Thu Oct 16 22:38:41 2025] [::1]:60683 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60684 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60684 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js.map
+[Thu Oct 16 22:38:41 2025] [::1]:60684 Closing
+[Thu Oct 16 22:38:41 2025] [::1]:60685 Accepted
+[Thu Oct 16 22:38:41 2025] [::1]:60685 [200]: GET /assets/img/logo.png
+[Thu Oct 16 22:38:41 2025] [::1]:60685 Closing
+[Thu Oct 16 22:38:58 2025] [::1]:60752 Accepted
+[Thu Oct 16 22:38:58 2025] Failed to log activity: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'layover.activity_log' doesn't exist
+[Thu Oct 16 22:38:58 2025] [::1]:60752 [200]: POST /backend/submit_contact.php
+[Thu Oct 16 22:38:58 2025] [::1]:60752 Closing
+[Thu Oct 16 22:41:42 2025] [::1]:61428 Accepted
+[Thu Oct 16 22:41:42 2025] Failed to log activity: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'layover.activity_log' doesn't exist
+[Thu Oct 16 22:41:42 2025] [::1]:61428 [200]: POST /backend/submit_contact.php
+[Thu Oct 16 22:41:42 2025] [::1]:61428 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61565 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61565 [200]: GET /
+[Thu Oct 16 22:42:13 2025] [::1]:61565 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61566 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61566 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:42:13 2025] [::1]:61566 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61567 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61568 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61569 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61567 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:42:13 2025] [::1]:61570 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61568 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:42:13 2025] [::1]:61569 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:42:13 2025] [::1]:61571 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61570 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:42:13 2025] [::1]:61572 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61567 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61571 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:42:13 2025] [::1]:61573 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61568 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61569 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61572 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:42:13 2025] [::1]:61574 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61570 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61575 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61571 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61576 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61573 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:42:13 2025] [::1]:61572 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61573 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61574 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:42:13 2025] [::1]:61576 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:42:13 2025] [::1]:61575 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:42:13 2025] [::1]:61577 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61578 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61574 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61576 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61575 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61579 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61577 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:42:13 2025] [::1]:61578 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:42:13 2025] [::1]:61580 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61581 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61577 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61582 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61579 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:42:13 2025] [::1]:61578 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61583 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61580 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:42:13 2025] [::1]:61581 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:42:13 2025] [::1]:61579 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61584 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61582 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:42:13 2025] [::1]:61583 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:42:13 2025] [::1]:61580 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61585 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61584 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:42:13 2025] [::1]:61581 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61586 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61585 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:42:13 2025] [::1]:61587 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61582 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61583 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61586 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:42:13 2025] [::1]:61588 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61584 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61587 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:42:13 2025] [::1]:61589 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61588 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:42:13 2025] [::1]:61585 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61586 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61589 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[Thu Oct 16 22:42:13 2025] [::1]:61587 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61588 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61589 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61590 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61590 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:42:13 2025] [::1]:61590 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61591 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61591 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[Thu Oct 16 22:42:13 2025] [::1]:61591 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61592 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61592 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[Thu Oct 16 22:42:13 2025] [::1]:61592 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61593 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61593 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js.map
+[Thu Oct 16 22:42:13 2025] [::1]:61593 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61594 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61594 [200]: GET /assets/img/logo.png
+[Thu Oct 16 22:42:13 2025] [::1]:61594 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61599 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61599 [200]: GET /assets/img/steps/steps-1.webp
+[Thu Oct 16 22:42:13 2025] [::1]:61599 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61600 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61600 [200]: GET /assets/img/steps/steps-2.webp
+[Thu Oct 16 22:42:13 2025] [::1]:61600 Closing
+[Thu Oct 16 22:42:13 2025] [::1]:61601 Accepted
+[Thu Oct 16 22:42:13 2025] [::1]:61601 [200]: GET /assets/img/steps/steps-3.webp
+[Thu Oct 16 22:42:13 2025] [::1]:61601 Closing
+[Thu Oct 16 22:44:13 2025] [::1]:62102 Accepted
+[Thu Oct 16 22:44:13 2025] Failed to log activity: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'layover.activity_log' doesn't exist
+[Thu Oct 16 22:44:13 2025] [::1]:62102 [200]: POST /backend/submit_contact.php
+[Thu Oct 16 22:44:13 2025] [::1]:62102 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62116 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62116 [200]: GET /?id=ca36afd8-918f-4870-9537-3df6e62e4bd2&vscodeBrowserReqId=1760634856360
+[Thu Oct 16 22:44:16 2025] [::1]:62116 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62117 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62118 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62117 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:44:16 2025] [::1]:62119 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62118 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:44:16 2025] [::1]:62120 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62117 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62119 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:44:16 2025] [::1]:62120 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:44:16 2025] [::1]:62121 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62118 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62119 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62120 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62122 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62121 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:44:16 2025] [::1]:62121 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62122 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:44:16 2025] [::1]:62122 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62123 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62124 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62123 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:44:16 2025] [::1]:62125 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62124 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:44:16 2025] [::1]:62125 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:44:16 2025] [::1]:62123 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62126 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62124 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62127 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62126 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:44:16 2025] [::1]:62125 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62128 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62127 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:44:16 2025] [::1]:62128 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:44:16 2025] [::1]:62129 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62126 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62127 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62128 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62130 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62129 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:44:16 2025] [::1]:62131 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62129 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62132 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62130 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:44:16 2025] [::1]:62133 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62130 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62131 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:44:16 2025] [::1]:62132 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:44:16 2025] [::1]:62134 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62131 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62133 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:44:16 2025] [::1]:62132 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62133 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62134 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:44:16 2025] [::1]:62135 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62134 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62136 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62135 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:44:16 2025] [::1]:62135 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62137 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62138 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62136 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:44:16 2025] [::1]:62139 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62137 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:44:16 2025] [::1]:62136 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62137 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62138 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:44:16 2025] [::1]:62138 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62139 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:44:16 2025] [::1]:62139 Closing
+[Thu Oct 16 22:44:16 2025] [::1]:62140 Accepted
+[Thu Oct 16 22:44:16 2025] [::1]:62140 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:44:16 2025] [::1]:62140 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62190 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62190 [200]: GET /
+[Thu Oct 16 22:44:27 2025] [::1]:62191 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62190 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62191 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[Thu Oct 16 22:44:27 2025] [::1]:62191 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62192 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62193 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62192 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:44:27 2025] [::1]:62194 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62193 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:44:27 2025] [::1]:62195 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62192 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62194 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:44:27 2025] [::1]:62196 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62193 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62195 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:44:27 2025] [::1]:62197 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62194 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62195 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62196 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:44:27 2025] [::1]:62196 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62198 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62197 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:44:27 2025] [::1]:62197 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62199 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62198 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:44:27 2025] [::1]:62199 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:44:27 2025] [::1]:62198 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62199 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62200 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62201 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62200 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:44:27 2025] [::1]:62202 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62200 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62201 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:44:27 2025] [::1]:62203 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62201 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62202 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:44:27 2025] [::1]:62204 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62202 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62203 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:44:27 2025] [::1]:62205 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62203 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62204 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:44:27 2025] [::1]:62206 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62204 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62205 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:44:27 2025] [::1]:62207 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62205 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62206 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:44:27 2025] [::1]:62208 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62207 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:44:27 2025] [::1]:62206 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62209 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62208 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:44:27 2025] [::1]:62210 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62209 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:44:27 2025] [::1]:62211 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62207 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62208 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62210 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:44:27 2025] [::1]:62212 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62211 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:44:27 2025] [::1]:62209 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62212 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:44:27 2025] [::1]:62213 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62210 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62214 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62213 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:44:27 2025] [::1]:62211 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62214 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:44:27 2025] [::1]:62212 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62213 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62214 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62215 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62215 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:44:27 2025] [::1]:62215 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62216 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62216 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[Thu Oct 16 22:44:27 2025] [::1]:62217 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62217 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[Thu Oct 16 22:44:27 2025] [::1]:62216 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62217 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62218 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62218 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js.map
+[Thu Oct 16 22:44:27 2025] [::1]:62218 Closing
+[Thu Oct 16 22:44:27 2025] [::1]:62219 Accepted
+[Thu Oct 16 22:44:27 2025] [::1]:62219 [200]: GET /assets/img/logo.png
+[Thu Oct 16 22:44:27 2025] [::1]:62219 Closing
+[Thu Oct 16 22:44:28 2025] [::1]:62224 Accepted
+[Thu Oct 16 22:44:28 2025] [::1]:62224 [200]: GET /assets/img/steps/steps-1.webp
+[Thu Oct 16 22:44:28 2025] [::1]:62224 Closing
+[Thu Oct 16 22:44:28 2025] [::1]:62225 Accepted
+[Thu Oct 16 22:44:28 2025] [::1]:62225 [200]: GET /assets/img/steps/steps-2.webp
+[Thu Oct 16 22:44:28 2025] [::1]:62225 Closing
+[Thu Oct 16 22:44:28 2025] [::1]:62226 Accepted
+[Thu Oct 16 22:44:28 2025] [::1]:62226 [200]: GET /assets/img/steps/steps-3.webp
+[Thu Oct 16 22:44:28 2025] [::1]:62226 Closing
+[Thu Oct 16 22:44:33 2025] [::1]:62247 Accepted
+[Thu Oct 16 22:44:33 2025] [::1]:62247 [400]: POST /backend/submit_contact.php
+[Thu Oct 16 22:44:33 2025] [::1]:62247 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62454 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62454 [200]: GET /?id=ca36afd8-918f-4870-9537-3df6e62e4bd2&vscodeBrowserReqId=1760634922912
+[Thu Oct 16 22:45:22 2025] [::1]:62454 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62455 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62456 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62455 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:45:22 2025] [::1]:62457 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62456 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:45:22 2025] [::1]:62458 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62457 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:45:22 2025] [::1]:62459 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62458 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:45:22 2025] [::1]:62460 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62455 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62456 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62459 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:45:22 2025] [::1]:62457 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62460 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:45:22 2025] [::1]:62458 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62459 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62460 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62461 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62462 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62463 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62461 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:45:22 2025] [::1]:62462 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:45:22 2025] [::1]:62464 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62465 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62463 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:45:22 2025] [::1]:62466 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62461 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62462 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62464 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:45:22 2025] [::1]:62465 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:45:22 2025] [::1]:62466 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:45:22 2025] [::1]:62463 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62467 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62464 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62465 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62468 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62466 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62467 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:45:22 2025] [::1]:62467 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62469 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62468 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:45:22 2025] [::1]:62470 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62471 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62468 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62469 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:45:22 2025] [::1]:62470 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:45:22 2025] [::1]:62472 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62469 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62471 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:45:22 2025] [::1]:62473 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62470 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62472 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:45:22 2025] [::1]:62474 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62473 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:45:22 2025] [::1]:62475 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62474 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:45:22 2025] [::1]:62471 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62476 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62472 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62475 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:45:22 2025] [::1]:62477 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62476 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:45:22 2025] [::1]:62473 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62474 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62477 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:45:22 2025] [::1]:62475 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62476 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62477 Closing
+[Thu Oct 16 22:45:22 2025] [::1]:62478 Accepted
+[Thu Oct 16 22:45:22 2025] [::1]:62478 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:45:22 2025] [::1]:62478 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62536 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62537 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62536 [200]: GET /
+[Thu Oct 16 22:45:35 2025] [::1]:62536 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62537 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:45:35 2025] [::1]:62537 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62538 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62539 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62540 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62538 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:45:35 2025] [::1]:62539 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:45:35 2025] [::1]:62541 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62542 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62538 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62540 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:45:35 2025] [::1]:62541 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:45:35 2025] [::1]:62543 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62539 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62542 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:45:35 2025] [::1]:62544 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62543 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:45:35 2025] [::1]:62540 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62544 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:45:35 2025] [::1]:62541 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62545 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62542 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62543 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62545 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:45:35 2025] [::1]:62544 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62545 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62546 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62547 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62548 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62546 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:45:35 2025] [::1]:62547 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:45:35 2025] [::1]:62548 [200]: GET /.well-known/appspecific/com.chrome.devtools.json
+[Thu Oct 16 22:45:35 2025] [::1]:62549 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62546 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62547 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62550 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62548 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62549 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:45:35 2025] [::1]:62551 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62552 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62553 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62549 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62550 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:45:35 2025] [::1]:62551 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:45:35 2025] [::1]:62552 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:45:35 2025] [::1]:62553 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:45:35 2025] [::1]:62554 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62555 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62554 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:45:35 2025] [::1]:62550 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62551 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62552 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62555 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:45:35 2025] [::1]:62556 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62553 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62557 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62556 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:45:35 2025] [::1]:62554 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62558 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62557 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:45:35 2025] [::1]:62555 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62559 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62558 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:45:35 2025] [::1]:62560 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62559 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:45:35 2025] [::1]:62556 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62557 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62560 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:45:35 2025] [::1]:62558 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62559 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62560 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62561 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62561 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:45:35 2025] [::1]:62562 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62563 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62561 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62562 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css.map
+[Thu Oct 16 22:45:35 2025] [::1]:62563 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map
+[Thu Oct 16 22:45:35 2025] [::1]:62563 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62564 Accepted
+[Thu Oct 16 22:45:35 2025] [::1]:62562 Closing
+[Thu Oct 16 22:45:35 2025] [::1]:62564 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js.map
+[Thu Oct 16 22:45:35 2025] [::1]:62564 Closing
+[Thu Oct 16 22:45:36 2025] [::1]:62565 Accepted
+[Thu Oct 16 22:45:36 2025] [::1]:62565 [200]: GET /assets/img/logo.png
+[Thu Oct 16 22:45:36 2025] [::1]:62565 Closing
+[Thu Oct 16 22:45:39 2025] [::1]:62579 Accepted
+[Thu Oct 16 22:45:39 2025] [::1]:62579 [400]: POST /backend/submit_contact.php
+[Thu Oct 16 22:45:39 2025] [::1]:62579 Closing
+[Thu Oct 16 22:45:47 2025] [::1]:62612 Accepted
+[Thu Oct 16 22:45:47 2025] [::1]:62612 [200]: GET /assets/img/steps/steps-3.webp
+[Thu Oct 16 22:45:47 2025] [::1]:62612 Closing
+[Thu Oct 16 22:45:47 2025] [::1]:62613 Accepted
+[Thu Oct 16 22:45:47 2025] [::1]:62613 [200]: GET /assets/img/steps/steps-2.webp
+[Thu Oct 16 22:45:47 2025] [::1]:62613 Closing
+[Thu Oct 16 22:46:06 2025] [::1]:62690 Accepted
+[Thu Oct 16 22:46:06 2025] [::1]:62690 [200]: GET /assets/img/steps/steps-1.webp
+[Thu Oct 16 22:46:06 2025] [::1]:62690 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62720 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62720 [200]: GET /
+[Thu Oct 16 22:48:01 2025] [::1]:62720 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62721 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62722 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62721 [200]: GET /assets/vendor/bootstrap/css/bootstrap.min.css
+[Thu Oct 16 22:48:01 2025] [::1]:62723 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62721 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62722 [200]: GET /assets/vendor/bootstrap-icons/bootstrap-icons.css
+[Thu Oct 16 22:48:01 2025] [::1]:62724 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62723 [200]: GET /assets/vendor/aos/aos.css
+[Thu Oct 16 22:48:01 2025] [::1]:62725 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62722 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62724 [200]: GET /assets/vendor/glightbox/css/glightbox.min.css
+[Thu Oct 16 22:48:01 2025] [::1]:62726 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62723 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62725 [200]: GET /assets/vendor/swiper/swiper-bundle.min.css
+[Thu Oct 16 22:48:01 2025] [::1]:62724 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62726 [200]: GET /assets/css/main.css
+[Thu Oct 16 22:48:01 2025] [::1]:62725 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62726 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62727 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62728 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62727 [200]: GET /assets/img/Logo.png
+[Thu Oct 16 22:48:01 2025] [::1]:62728 [200]: GET /assets/img/hero-img.png
+[Thu Oct 16 22:48:01 2025] [::1]:62727 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62728 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62729 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62730 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62731 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62729 [200]: GET /assets/img/illustration/illustration-10.webp
+[Thu Oct 16 22:48:01 2025] [::1]:62732 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62729 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62730 [200]: GET /assets/img/person/person-m-7.webp
+[Thu Oct 16 22:48:01 2025] [::1]:62731 [200]: GET /assets/img/person/person-m-6.webp
+[Thu Oct 16 22:48:01 2025] [::1]:62733 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62732 [200]: GET /assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+[Thu Oct 16 22:48:01 2025] [::1]:62734 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62733 [200]: GET /assets/vendor/php-email-form/validate.js
+[Thu Oct 16 22:48:01 2025] [::1]:62730 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62731 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62734 [200]: GET /assets/vendor/aos/aos.js
+[Thu Oct 16 22:48:01 2025] [::1]:62735 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62732 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62736 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62733 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62734 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62737 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62735 [200]: GET /assets/vendor/glightbox/js/glightbox.min.js
+[Thu Oct 16 22:48:01 2025] [::1]:62736 [200]: GET /assets/vendor/swiper/swiper-bundle.min.js
+[Thu Oct 16 22:48:01 2025] [::1]:62735 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62738 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62737 [200]: GET /assets/vendor/waypoints/noframework.waypoints.js
+[Thu Oct 16 22:48:01 2025] [::1]:62736 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62739 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62737 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62738 [200]: GET /assets/vendor/imagesloaded/imagesloaded.pkgd.min.js
+[Thu Oct 16 22:48:01 2025] [::1]:62740 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62738 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62739 [200]: GET /assets/vendor/isotope-layout/isotope.pkgd.min.js
+[Thu Oct 16 22:48:01 2025] [::1]:62741 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62739 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62740 [200]: GET /assets/js/main.js
+[Thu Oct 16 22:48:01 2025] [::1]:62740 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62742 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62741 [200]: GET /assets/img/person/person-m-9.webp
+[Thu Oct 16 22:48:01 2025] [::1]:62741 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62743 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62742 [200]: GET /assets/img/person/person-m-13.webp
+[Thu Oct 16 22:48:01 2025] [::1]:62743 [200]: GET /assets/img/person/person-m-12.webp
+[Thu Oct 16 22:48:01 2025] [::1]:62742 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62743 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62744 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62744 [200]: GET /assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a
+[Thu Oct 16 22:48:01 2025] [::1]:62744 Closing
+[Thu Oct 16 22:48:01 2025] [::1]:62745 Accepted
+[Thu Oct 16 22:48:01 2025] [::1]:62745 [200]: GET /assets/img/logo.png
+[Thu Oct 16 22:48:01 2025] [::1]:62745 Closing

@@ -36,8 +36,7 @@
 </head>
 
 <body class="index-page">
-
-<!-- Diwali Top Banner -->
+ <!-- Diwali Top Banner -->
 <div class="diwali-top-banner position-relative" style="background: linear-gradient(90deg, #FF6B35 0%, #FFD700 50%, #FF6B35 100%); box-shadow: 0 2px 10px rgba(255, 107, 53, 0.3); z-index: 1050;">
   <div class="container-fluid py-2">
     <div class="row align-items-center justify-content-center">
@@ -45,9 +44,9 @@
         <div class="d-flex align-items-center justify-content-center flex-wrap">
           <span class="text-white fw-bold me-3 fs-6">
             <i class="bi bi-stars text-warning me-1"></i>
-            🪔 DIWALI SPECIAL: FREE Website Design for Small Businesses! 🪔
+            DIWALI SPECIAL: FREE Website Design for Small Businesses!
           </span>
-          <button class="btn btn-light btn-sm fw-bold px-3 py-1 me-2" data-bs-toggle="modal" data-bs-target="#diwaliOfferModal" style="border: 2px solid #FF6B35;">
+          <button class="btn btn-light btn-sm fw-bold px-3 py-1 me-2" style="border: 2px solid #FF6B35;" onclick="alert('Updated Diwali offer details in contact form. click Ok to proceed.'); window.location.hash='#contact'; setTimeout(() => { document.getElementById('message-field').value = '🪔 Diwali Special Offer 🪔\nFREE Website Design for Small Businesses!\n\nLimited time offer - Only 5 spots left.'; }, 100);">
             <i class="bi bi-gift-fill text-danger me-1"></i>Claim FREE Now
           </button>
           <span class="badge bg-danger text-white fw-bold px-2 py-1">Only 5 Left!</span>
@@ -57,7 +56,7 @@
     </div>
   </div>
 </div>
-
+   <!-- End Diwali Top Banner -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
@@ -86,7 +85,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" data-bs-toggle="modal" data-bs-target="#getStartedModal">Get Started</a>
 
     </div>
   </header>
@@ -94,6 +93,7 @@
   <main class="main">
 
     <!-- Hero Section -->
+     
     <section id="hero" class="hero section dark-background">
 
       <div class="container">
@@ -111,8 +111,8 @@
         </div>
       </div>
 
-    </section><!-- /Hero Section -->
-
+    </section>
+    <!-- /Hero Section -->
     <!-- Clients Section -->
     <section id="clients" class="clients section light-background">
 
@@ -127,6 +127,7 @@
                 "delay": 5000
               },
               "slidesPerView": "auto",
+              "rtl": true,
               "pagination": {
                 "el": ".swiper-pagination",
                 "type": "bullets",
@@ -157,11 +158,11 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide client-brand"><span class="client-name">Masterminds Toys</span></div>
-            <div class="swiper-slide client-brand"><span class="client-name">Ak Mobiles</span></div>
-            <div class="swiper-slide client-brand"><span class="client-name">AquaTech</span></div>
-            <div class="swiper-slide client-brand"><span class="client-name">ABC</span></div>
-  <style>
+            
+            <div class="swiper-slide client-brand"><a href="https://lpr-designs.vercel.app/" target="_blank" class="client-name">LPR Design accessories</a></div>
+            <div class="swiper-slide client-brand"><a href="https://ak-mobiles-pyr.vercel.app/" target="_blank" class="client-name">AK Mobiles Premium Store</a></div>
+            <div class="swiper-slide client-brand"><a href="https://www.mastermindstoys.in" target="_blank" class="client-name">Masterminds Toys</a></div>
+          <style>
     .client-brand {
       display: flex;
       align-items: center;
@@ -169,7 +170,7 @@
       height: 100px;
       text-align: center;
     }
-    .client-name {
+    .client-name, .client-name:link, .client-name:visited, .client-name:hover, .client-name:active {
       color: #888;
       font-size: 1rem;
       font-weight: 500;
@@ -177,13 +178,30 @@
       width: 100%;
       text-align: center;
       display: block;
+      text-decoration: none;
     }
     .client-brand:hover .client-name {
       color: #007bff;
       font-weight: 700;
     }
+    .clients .swiper-pagination {
+      margin-top: 30px;
+    }
+    .clients .swiper-pagination .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background: rgba(102, 126, 234, 0.3);
+      opacity: 1;
+      margin: 0 6px;
+      transition: all 0.3s ease;
+    }
+    .clients .swiper-pagination .swiper-pagination-bullet-active {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      transform: scale(1.2);
+    }
   </style>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
 
       </div>
@@ -530,7 +548,28 @@
       </div>
 
     </section><!-- /Team Section -->
-
+    <!-- Diwali Top Banner -->
+<div class="diwali-top-banner position-relative" style="background: linear-gradient(90deg, #FF6B35 0%, #FFD700 50%, #FF6B35 100%); box-shadow: 0 2px 10px rgba(255, 107, 53, 0.3); z-index: 1050;">
+  <div class="container-fluid py-2">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-auto text-center">
+        <div class="d-flex align-items-center justify-content-center flex-wrap">
+          <span class="text-white fw-bold me-3 fs-6">
+            <i class="bi bi-stars text-warning me-1"></i>
+            DIWALI SPECIAL: FREE Website Design for Small Businesses!
+          </span>
+          <button class="btn btn-light btn-sm fw-bold px-3 py-1 me-2" style="border: 2px solid #FF6B35;" onclick="alert('Updated Diwali offer details in contact form. click Ok to proceed.'); window.location.hash='#contact'; setTimeout(() => { document.getElementById('message-field').value = '🪔 Diwali Special Offer 🪔\nFREE Website Design for Small Businesses!\n\nLimited time offer - Only 5 spots left.'; }, 100);">
+            <i class="bi bi-gift-fill text-danger me-1"></i>Claim FREE Now
+          </button>
+          <span class="badge bg-danger text-white fw-bold px-2 py-1">Only 5 Left!</span>
+          <button type="button" class="btn-close btn-close-white ms-3" aria-label="Close" onclick="this.closest('.diwali-top-banner').style.display='none'"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+   <!-- End Diwali Top Banner -->
+ 
     <!-- Pricing Section -->
     <section id="pricing" class="pricing section light-background">
 
@@ -803,29 +842,7 @@
 
     </section><!-- /Faq 2 Section -->
 
-    <!-- Subscribe Section -->
-    <section id="subscribe" class="subscribe section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4 justify-content-between align-items-center">
-          <div class="col-lg-6">
-            <div class="cta-content" data-aos="fade-up" data-aos-delay="200">
-              <h2>Subscribe to our newsletter</h2>
-              <p>Stay updated with the latest news, insights, and offers from Layover Solutions. Subscribe now and never miss an important update for your business growth.</p>
-              <form action="forms/newsletter.php" method="post" class="php-email-form cta-form" data-aos="fade-up" data-aos-delay="300">
-                <div class="input-group mb-3">
-                  <input type="email" class="form-control" placeholder="Email address..." aria-label="Email address" aria-describedby="button-subscribe">
-                  <button class="btn btn-primary" type="submit" id="button-subscribe">Subscribe</button>
-                </div>
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-              </form>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </section><!-- /Subscribe Section -->
+
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
@@ -871,22 +888,25 @@
           </div>
 
           <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="backend/submit_contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
                   <label for="name-field" class="pb-2">Name</label>
                   <input type="text" name="name" id="name-field" class="form-control" required="">
+                  <div class="invalid-feedback" id="name-error" style="display: none;">Please enter your name.</div>
                 </div>
 
                 <div class="col-md-6">
                   <label for="email-field" class="pb-2">Email</label>
                   <input type="email" class="form-control" name="email" id="email-field" required="">
+                  <div class="invalid-feedback" id="email-error" style="display: none;">Please enter a valid email address.</div>
                 </div>
 
                 <div class="col-md-6">
                   <label for="phone-field" class="pb-2">Phone No</label>
                   <input type="tel" class="form-control" name="phone" id="phone-field" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" required="">
+                  <div class="invalid-feedback" id="phone-error" style="display: none;">Please enter a valid 10-digit phone number.</div>
                 </div>
 
                 <div class="col-md-6">
@@ -897,6 +917,7 @@
                     <option value="afternoon">Afternoon (12 PM - 5 PM)</option>
                     <option value="evening">Evening (5 PM - 8 PM)</option>
                   </select>
+                  <div class="invalid-feedback" id="time-error" style="display: none;">Please select your preferred time to call.</div>
                 </div>
 
                 <div class="col-md-12">
@@ -908,11 +929,13 @@
                     <option value="telugu">Telugu</option>
                     <option value="other">Other</option>
                   </select>
+                  <div class="invalid-feedback" id="language-error" style="display: none;">Please select your preferred language.</div>
                 </div>
 
                 <div class="col-md-12">
                   <label for="message-field" class="pb-2">Message</label>
                   <textarea class="form-control" name="message" rows="6" id="message-field" required=""></textarea>
+                  <div class="invalid-feedback" id="message-error" style="display: none;">Please enter your message.</div>
                 </div>
 
                 <div class="col-md-12 text-center">
@@ -920,45 +943,218 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                  <button type="submit">Send Message</button>
+                  <button type="button" id="contact-submit-btn">Send Message</button>
                 </div>
 
               </div>
             </form>
             <script>
-              document.querySelector('.php-email-form').addEventListener('submit', function(e) {
-                let formData = {
-                  name: document.querySelector('#name-field').value,
-                  email: document.querySelector('#email-field').value,
-                  phone: document.querySelector('#phone-field').value,
-                  preferred_time: document.querySelector('#time-field').value,
-                  preferred_language: document.querySelector('#language-field').value,
-                  message: document.querySelector('#message-field').value
-                };
-                let observer = new MutationObserver(function(mutations) {
-                  mutations.forEach(function(mutation) {
-                    if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-                      if (document.querySelector('.sent-message').classList.contains('d-block')) {
-                        document.querySelector('.sent-message').innerHTML = `
-                          <div class="card mt-3">
-                            <div class="card-body">
-                              <h5 class="card-title text-success">Message Sent Successfully!</h5>
-                              <p><strong>Name:</strong> ${formData.name}</p>
-                              <p><strong>Email:</strong> ${formData.email}</p>
-                              <p><strong>Phone:</strong> ${formData.phone}</p>
-                              <p><strong>Preferred Time:</strong> ${formData.preferred_time}</p>
-                              <p><strong>Preferred Language:</strong> ${formData.preferred_language}</p>
-                              <p><strong>Message:</strong> ${formData.message}</p>
-                            </div>
-                          </div>
-                        `;
-                        observer.disconnect();
-                      }
-                    }
+              document.addEventListener('DOMContentLoaded', function() {
+                console.log('Contact form script loaded');
+                const contactForm = document.querySelector('.php-email-form');
+                const submitBtn = document.getElementById('contact-submit-btn');
+                console.log('Contact form found:', contactForm);
+                console.log('Submit button found:', submitBtn);
+
+                if (submitBtn) {
+                  submitBtn.addEventListener('click', function(e) {
+                    console.log('Submit button clicked');
+                    handleContactFormSubmission();
                   });
+                } else {
+                  console.error('Submit button not found!');
+                }
+
+                // Add real-time validation - clear errors when user starts typing
+                const fields = ['name-field', 'email-field', 'phone-field', 'time-field', 'language-field', 'message-field'];
+                fields.forEach(fieldId => {
+                  const field = document.getElementById(fieldId);
+                  if (field) {
+                    field.addEventListener('input', function() {
+                      const errorElement = document.getElementById(fieldId.replace('-field', '-error'));
+                      if (errorElement) {
+                        errorElement.style.display = 'none';
+                      }
+                      field.classList.remove('is-invalid');
+                    });
+                    field.addEventListener('change', function() {
+                      const errorElement = document.getElementById(fieldId.replace('-field', '-error'));
+                      if (errorElement) {
+                        errorElement.style.display = 'none';
+                      }
+                      field.classList.remove('is-invalid');
+                    });
+                  }
                 });
-                observer.observe(document.querySelector('.sent-message'), { attributes: true });
               });
+
+              function handleContactFormSubmission() {
+                console.log('Handling contact form submission');
+
+                // Clear previous error messages
+                document.querySelectorAll('.invalid-feedback').forEach(el => {
+                  el.style.display = 'none';
+                });
+                document.querySelectorAll('.form-control').forEach(el => {
+                  el.classList.remove('is-invalid');
+                });
+
+                // Get form data
+                const nameValue = document.querySelector('#name-field').value.trim();
+                const emailValue = document.querySelector('#email-field').value.trim();
+                const phoneValue = document.querySelector('#phone-field').value.trim();
+                const timeValue = document.querySelector('#time-field').value;
+                const languageValue = document.querySelector('#language-field').value;
+                const messageValue = document.querySelector('#message-field').value.trim();
+
+                let isValid = true;
+
+                // Validate name
+                if (!nameValue) {
+                  document.getElementById('name-error').style.display = 'block';
+                  document.getElementById('name-field').classList.add('is-invalid');
+                  isValid = false;
+                }
+
+                // Validate email
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailValue) {
+                  document.getElementById('email-error').textContent = 'Please enter your email address.';
+                  document.getElementById('email-error').style.display = 'block';
+                  document.getElementById('email-field').classList.add('is-invalid');
+                  isValid = false;
+                } else if (!emailRegex.test(emailValue)) {
+                  document.getElementById('email-error').textContent = 'Please enter a valid email address.';
+                  document.getElementById('email-error').style.display = 'block';
+                  document.getElementById('email-field').classList.add('is-invalid');
+                  isValid = false;
+                }
+
+                // Validate phone
+                const phoneRegex = /^[0-9]{10}$/;
+                if (!phoneValue) {
+                  document.getElementById('phone-error').textContent = 'Please enter your phone number.';
+                  document.getElementById('phone-error').style.display = 'block';
+                  document.getElementById('phone-field').classList.add('is-invalid');
+                  isValid = false;
+                } else if (!phoneRegex.test(phoneValue)) {
+                  document.getElementById('phone-error').textContent = 'Please enter a valid 10-digit phone number.';
+                  document.getElementById('phone-error').style.display = 'block';
+                  document.getElementById('phone-field').classList.add('is-invalid');
+                  isValid = false;
+                }
+
+                // Validate preferred time
+                if (!timeValue) {
+                  document.getElementById('time-error').style.display = 'block';
+                  document.getElementById('time-field').classList.add('is-invalid');
+                  isValid = false;
+                }
+
+                // Validate preferred language
+                if (!languageValue) {
+                  document.getElementById('language-error').style.display = 'block';
+                  document.getElementById('language-field').classList.add('is-invalid');
+                  isValid = false;
+                }
+
+                // Validate message
+                if (!messageValue) {
+                  document.getElementById('message-error').style.display = 'block';
+                  document.getElementById('message-field').classList.add('is-invalid');
+                  isValid = false;
+                }
+
+                // If validation fails, stop here
+                if (!isValid) {
+                  console.log('Form validation failed');
+                  return;
+                }
+
+                console.log('Form validation passed, proceeding with submission');
+
+                // Show loading state
+                const submitBtn = document.getElementById('contact-submit-btn');
+                const originalText = submitBtn.innerHTML;
+                submitBtn.innerHTML = 'Sending...';
+                submitBtn.disabled = true;
+
+                // Hide previous messages
+                document.querySelector('.loading').style.display = 'block';
+                document.querySelector('.error-message').style.display = 'none';
+                document.querySelector('.sent-message').style.display = 'none';
+
+                console.log('Form field values:', {
+                  name: nameValue,
+                  email: emailValue,
+                  phone: phoneValue,
+                  preferred_time: timeValue,
+                  preferred_language: languageValue,
+                  message: messageValue
+                });
+
+                // Prepare form data
+                const formData = new FormData();
+                formData.append('name', nameValue);
+                formData.append('email', emailValue);
+                formData.append('phone', phoneValue);
+                formData.append('preferred_time', timeValue);
+                formData.append('preferred_language', languageValue);
+                formData.append('message', messageValue);
+
+                console.log('Sending form data...');
+
+                // Submit to backend
+                fetch('backend/submit_contact.php', {
+                  method: 'POST',
+                  body: formData
+                })
+                .then(response => {
+                  console.log('Response received:', response);
+                  return response.json();
+                })
+                .then(data => {
+                  console.log('Data received:', data);
+                  document.querySelector('.loading').style.display = 'none';
+
+                  if (data.success) {
+                    console.log('Success! Showing success message');
+                    document.querySelector('.sent-message').style.display = 'block';
+                    document.querySelector('.sent-message').innerHTML = `
+                      <div class="card mt-3">
+                        <div class="card-body">
+                          <h5 class="card-title text-success">Message Sent Successfully!</h5>
+                          <p class="mb-0">Thank you for contacting us. We'll get back to you within 24 hours.</p>
+                        </div>
+                      </div>
+                    `;
+                    // Reset form
+                    document.querySelector('.php-email-form').reset();
+                    // Clear validation states
+                    document.querySelectorAll('.invalid-feedback').forEach(el => {
+                      el.style.display = 'none';
+                    });
+                    document.querySelectorAll('.form-control').forEach(el => {
+                      el.classList.remove('is-invalid');
+                    });
+                  } else {
+                    console.log('Error response:', data.message);
+                    document.querySelector('.error-message').style.display = 'block';
+                    document.querySelector('.error-message').innerHTML = data.message || 'Failed to send message. Please try again.';
+                  }
+                })
+                .catch(error => {
+                  console.error('Network error:', error);
+                  document.querySelector('.loading').style.display = 'none';
+                  document.querySelector('.error-message').style.display = 'block';
+                  document.querySelector('.error-message').innerHTML = 'Network error. Please check your connection and try again.';
+                })
+                .finally(() => {
+                  // Reset button state
+                  submitBtn.innerHTML = originalText;
+                  submitBtn.disabled = false;
+                });
+              }
             </script>
           </div><!-- End Contact Form -->
 
@@ -995,7 +1191,7 @@
             <li><i class="bi bi-chevron-right"></i> <a href="#work-process">Work Process</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#pricing">Pricing</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bi bi-chevron-right"></i><a class="btn-getstarted" data-bs-toggle="modal" data-bs-target="#getStartedModal">Get Started</a></li>
           </ul>
         </div>
 
@@ -1028,10 +1224,6 @@
     <div class="container copyright text-center mt-4">
       <p>Copyright © 2025 <span></span> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
          by <a href="">Layover Solutions</a>
       </div>
     </div>
@@ -1040,113 +1232,120 @@
 
   <!-- Get Started Modal -->
   <div class="modal fade" id="getStartedModal" tabindex="-1" aria-labelledby="getStartedModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="getStartedModalLabel">Get Started with Layover Solutions</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content border-0 shadow-xl" style="border-radius: 20px; overflow: hidden; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px);">
+        <!-- Header Card -->
+        <div class="card border-0" style="border-radius: 20px 20px 0 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+          <div class="card-body text-center text-white p-4">
+            <h3 class="card-title fw-bold mb-2" id="getStartedModalLabel" style="font-family: 'Poppins', sans-serif; font-size: 1.8rem;">Get Started</h3>
+            <p class="card-text opacity-90 mb-0" style="font-size: 1.1rem;">Let's discuss your requirements</p>
+          </div>
+          <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close" style="filter: brightness(0) invert(1);"></button>
         </div>
-        <div class="modal-body">
-          <form id="getStartedForm">
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="fullName" class="form-label">Full Name *</label>
-                <input type="text" class="form-control" id="fullName" required>
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="phone" class="form-label">Phone *</label>
-                <input type="tel" class="form-control" id="phone" required>
-              </div>
+
+        <!-- Form Card -->
+        <div class="card border-0" style="border-radius: 0; background: rgba(255, 255, 255, 0.98);">
+          <div class="card-body p-5">
+            <!-- Welcome Message -->
+            <div class="text-center mb-5">
+                          <p class="text-muted mb-0" style="font-size: 1rem; line-height: 1.6;">Fill out and submit the form, we'll get back to you within 24 hours</p>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email ID *</label>
-              <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="mb-3">
-              <label for="services" class="form-label">Services *</label>
-              <select class="form-select" id="services" required>
-                <option value="">Select a service</option>
-                <option value="Web Development">Web Development</option>
-                <option value="Mobile App Development">Mobile App Development</option>
-                <option value="UI/UX Design">UI/UX Design</option>
-                <option value="Digital Marketing">Digital Marketing</option>
-                <option value="E-commerce Solutions">E-commerce Solutions</option>
-                <option value="Consulting">Consulting</option>
-              </select>
-            </div>
-            <div class="mb-3">
-              <label class="form-label">Add-Ons</label>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="addon-payment" value="Payment Integration">
-                    <label class="form-check-label" for="addon-payment">
-                      Payment Integration
-                    </label>
+
+            <form id="getStartedForm" action="backend/submit_get_started.php" method="post">
+              <!-- Basic Information Card -->
+              <div class="card border-0 shadow-sm mb-4" style="background: rgba(248, 249, 250, 0.8); border-radius: 15px;">
+                <div class="card-body p-4">
+                  <h6 class="card-title fw-bold mb-3" style="color: #495057; font-family: 'Poppins', sans-serif;">
+                    <i class="bi bi-person-circle me-2 text-primary"></i>Personal Information
+                  </h6>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="fullName" class="form-label fw-semibold" style="color: #2c3e50; font-size: 0.95rem;">Full Name <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control form-control-lg border-0" id="fullName" placeholder="Enter your full name" required style="border-radius: 12px; background: white; font-size: 1rem; padding: 12px 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="phone" class="form-label fw-semibold" style="color: #2c3e50; font-size: 0.95rem;">Phone Number <span class="text-danger">*</span></label>
+                      <input type="tel" class="form-control form-control-lg border-0" id="phone" placeholder="Enter your phone number" required style="border-radius: 12px; background: white; font-size: 1rem; padding: 12px 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    </div>
                   </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="addon-email" value="Email Integration">
-                    <label class="form-check-label" for="addon-email">
-                      Email Integration
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="addon-chat" value="Chat/AI Integration">
-                    <label class="form-check-label" for="addon-chat">
-                      Chat/AI Integration
-                    </label>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="addon-maintenance" value="Basic Maintenance">
-                    <label class="form-check-label" for="addon-maintenance">
-                      Basic Maintenance
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="addon-support" value="Ongoing Support">
-                    <label class="form-check-label" for="addon-support">
-                      Ongoing Support
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="addon-social" value="Social Commerce">
-                    <label class="form-check-label" for="addon-social">
-                      Social Commerce
-                    </label>
+                  <div class="mt-3">
+                    <label for="email" class="form-label fw-semibold" style="color: #2c3e50; font-size: 0.95rem;">Email Address <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control form-control-lg border-0" id="email" placeholder="Enter your email address" required style="border-radius: 12px; background: white; font-size: 1rem; padding: 12px 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="preferredTime" class="form-label">Preferred Time to Call</label>
-                <select class="form-select" id="preferredTime">
-                  <option value="">Select time</option>
-                  <option value="9:00 AM - 12:00 PM">9:00 AM - 12:00 PM</option>
-                  <option value="12:00 PM - 3:00 PM">12:00 PM - 3:00 PM</option>
-                  <option value="3:00 PM - 6:00 PM">3:00 PM - 6:00 PM</option>
-                  <option value="6:00 PM - 9:00 PM">6:00 PM - 9:00 PM</option>
-                </select>
+
+              <!-- Service Selection Card -->
+              <div class="card border-0 shadow-sm mb-4" style="background: rgba(248, 249, 250, 0.8); border-radius: 15px;">
+                <div class="card-body p-4">
+                  <h6 class="card-title fw-bold mb-3" style="color: #495057; font-family: 'Poppins', sans-serif;">
+                    <i class="bi bi-gear-wide-connected me-2 text-primary"></i>Service Selection
+                  </h6>
+                  <label for="serviceSelect" class="form-label fw-semibold" style="color: #2c3e50; font-size: 0.95rem;">What plan/services are you interested in? <span class="text-danger">*</span></label>
+                  <select class="form-select form-select-lg border-0" id="serviceSelect" required style="border-radius: 12px; background: white; font-size: 1rem; padding: 12px 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <option value="">Select a service</option>
+                    <option value="Basic Plan">Basic Plan</option>
+                    <option value="Moderate Plan">Moderate Plan</option>
+                    <option value="Advance Plan">Advance Plan</option>
+                    <option value="Payment Integration">Payment Integration</option>
+                    <option value="Email Integration">Email Integration</option>
+                    <option value="Chat/AI Integration">Chat/AI Integration</option>
+                    <option value="Basic Maintenance">Social Commerce</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
               </div>
-              <div class="col-md-6 mb-3">
-                <label for="preferredLanguage" class="form-label">Preferred Language</label>
-                <select class="form-select" id="preferredLanguage">
-                  <option value="English">English</option>
-                  <option value="Hindi">Hindi</option>
-                  <option value="Tamil">Tamil</option>
-                  <option value="Telugu">Telugu</option>
-                  <option value="Kannada">Kannada</option>
-                  <option value="Malayalam">Malayalam</option>
-                </select>
+
+              <!-- Preferences Card -->
+              <div class="card border-0 shadow-sm mb-4" style="background: rgba(248, 249, 250, 0.8); border-radius: 15px;">
+                <div class="card-body p-4">
+                  <h6 class="card-title fw-bold mb-3" style="color: #495057; font-family: 'Poppins', sans-serif;">
+                    <i class="bi bi-clock me-2 text-primary"></i>Communication Preferences
+                  </h6>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="preferredTime" class="form-label fw-semibold" style="color: #2c3e50; font-size: 0.95rem;">Preferred Call Time</label>
+                      <select class="form-select border-0" id="preferredTime" style="border-radius: 12px; background: white; font-size: 1rem; padding: 12px 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                        <option value="">Any time works</option>
+                        <option value="9:00 AM - 12:00 PM">Morning (9 AM - 12 PM)</option>
+                        <option value="12:00 PM - 3:00 PM">Afternoon (12 PM - 3 PM)</option>
+                        <option value="3:00 PM - 6:00 PM">Evening (3 PM - 6 PM)</option>
+                        <option value="6:00 PM - 9:00 PM">Late Evening (6 PM - 9 PM)</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="preferredLanguage" class="form-label fw-semibold" style="color: #2c3e50; font-size: 0.95rem;">Preferred Language</label>
+                      <select class="form-select border-0" id="preferredLanguage" style="border-radius: 12px; background: white; font-size: 1rem; padding: 12px 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                        <option value="English">English</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="Telugu">Telugu</option>
+                        <option value="Kannada">Other</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-          <button type="button" class="btn btn-primary" onclick="submitGetStarted()">Submit</button>
+
+        <!-- Footer Card -->
+        <div class="card border-0" style="border-radius: 0 0 20px 20px; background: rgba(248, 249, 250, 0.9);">
+          <div class="card-body p-4">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="text-muted" style="font-size: 0.9rem;">
+                <i class="bi bi-shield-check me-1 text-success"></i>Secure & confidential
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-secondary me-3 px-4" data-bs-dismiss="modal" style="border-radius: 25px; font-weight: 600;">
+                  Cancel
+                </button>
+                <button type="button" class="btn btn-primary px-4" onclick="submitGetStarted()" style="border-radius: 25px; font-weight: 600; box-shadow: 0 4px 15px rgba(13, 110, 253, 0.3);">
+                  Submit Request
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -1236,21 +1435,21 @@
                         <input class="form-check-input" type="checkbox" id="payment" value="Payment Integration">
                         <label class="form-check-label" for="payment">
                           <strong>Payment Integration</strong>
-                          <br><small class="text-muted">₹2,000</small>
+                          <br><small class="text-muted">₹1,000</small>
                         </label>
                       </div>
                       <div class="form-check mb-2">
                         <input class="form-check-input" type="checkbox" id="email" value="Email Integration">
                         <label class="form-check-label" for="email">
                           <strong>Email Integration</strong>
-                          <br><small class="text-muted">₹1,500</small>
+                          <br><small class="text-muted">₹1,000</small>
                         </label>
                       </div>
                       <div class="form-check mb-2">
                         <input class="form-check-input" type="checkbox" id="chat" value="Chat/AI Integration">
                         <label class="form-check-label" for="chat">
                           <strong>Chat/AI Integration</strong>
-                          <br><small class="text-muted">₹3,000</small>
+                          <br><small class="text-muted">₹2,000</small>
                         </label>
                       </div>
                     </div>
@@ -1266,7 +1465,7 @@
                         <input class="form-check-input" type="checkbox" id="support" value="Ongoing Support">
                         <label class="form-check-label" for="support">
                           <strong>Ongoing Support</strong>
-                          <br><small class="text-muted">₹2,500/month</small>
+                          <br><small class="text-muted">₹3,000/month</small>
                         </label>
                       </div>
                       <div class="form-check mb-2">
@@ -1347,6 +1546,152 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <style>
+    /* Enhanced Modal Styles */
+    .shadow-xl {
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15) !important;
+    }
+
+    .bg-gradient-light {
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    }
+
+    .section-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 24px;
+      border: 1px solid #e9ecef;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    .section-header {
+      border-bottom: 2px solid #e9ecef;
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+
+    .addon-card {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      border: 2px solid #e9ecef !important;
+    }
+
+    .addon-card:hover {
+      border-color: #dee2e6 !important;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .form-floating > label {
+      padding: 1rem 0.75rem;
+    }
+
+    .form-floating > .form-control {
+      padding: 1rem 0.75rem;
+    }
+
+    .form-floating > .form-select {
+      padding: 1rem 0.75rem;
+    }
+
+    /* Modal animations */
+    .modal.fade .modal-dialog {
+      transition: transform 0.3s ease-out;
+      transform: translate(0, -50px);
+    }
+
+    .modal.show .modal-dialog {
+      transform: translate(0, 0);
+    }
+
+    /* Progress bar animation */
+    .progress-bar {
+      transition: width 0.6s ease;
+    }
+
+    /* Button hover effects */
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
+    }
+
+    .btn-outline-secondary:hover {
+      transform: translateY(-1px);
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .modal-dialog {
+        margin: 0.5rem;
+      }
+
+      .section-card {
+        padding: 16px;
+      }
+
+      .addon-card .d-flex {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .addon-card .me-3 {
+        margin-right: 0 !important;
+        margin-bottom: 8px;
+      }
+    }
+
+    /* Contact Form Validation Styles */
+    .invalid-feedback {
+      display: none;
+      color: #dc3545;
+      font-size: 0.875rem;
+      margin-top: 0.25rem;
+    }
+
+    .form-control.is-invalid {
+      border-color: #dc3545;
+      box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+    }
+
+    .form-control.is-invalid:focus {
+      border-color: #dc3545;
+      box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+    }
+
+    /* Contact Form Submit Button Styles */
+    #contact-submit-btn {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border: none;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      cursor: pointer;
+      min-width: 150px;
+    }
+
+    #contact-submit-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+      background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+    }
+
+    #contact-submit-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 10px rgba(102, 126, 234, 0.4);
+    }
+
+    #contact-submit-btn:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: 0 2px 10px rgba(102, 126, 234, 0.3);
+    }
+  </style>
+
   <script>
     const prices = {
       Basic: 5000,
@@ -1355,11 +1700,11 @@
     };
 
     const addonPrices = {
-      'Payment Integration': 2000,
-      'Email Integration': 1500,
-      'Chat/AI Integration': 3000,
+      'Payment Integration': 1000,
+      'Email Integration': 1000,
+      'Chat/AI Integration': 2000,
       'Basic Maintenance': 1000, // monthly
-      'Ongoing Support': 2500, // monthly
+      'Ongoing Support': 3000, // monthly
       'Social Commerce': 2500
     };
 
@@ -1446,53 +1791,164 @@
       }, 1000);
     }
 
+    function toggleAddon(addonId) {
+      const checkbox = document.getElementById(addonId);
+      const card = checkbox.closest('.form-check');
+      checkbox.checked = !checkbox.checked;
+
+      if (checkbox.checked) {
+        card.style.backgroundColor = '#e3f2fd';
+        card.style.borderColor = '#2196f3';
+        card.style.transform = 'scale(1.02)';
+      } else {
+        card.style.backgroundColor = '';
+        card.style.borderColor = '';
+        card.style.transform = 'scale(1)';
+      }
+    }
+
     function submitGetStarted() {
-      // Get form data
-      const fullName = document.getElementById('fullName').value;
-      const phone = document.getElementById('phone').value;
-      const email = document.getElementById('email').value;
-      const services = document.getElementById('services').value;
-      const preferredTime = document.getElementById('preferredTime').value;
-      const preferredLanguage = document.getElementById('preferredLanguage').value;
+      // Small delay to ensure modal is fully rendered
+      setTimeout(() => {
+        submitGetStartedInternal();
+      }, 100);
+    }
 
-      // Get selected add-ons
-      const selectedAddons = Array.from(document.querySelectorAll('#getStartedModal input[type="checkbox"]:checked')).map(cb => cb.value);
-
-      // Validate required fields
-      if (!fullName || !phone || !email || !services) {
-        alert('Please fill in all required fields.');
+    function submitGetStartedInternal() {
+      // Check if modal is open and form is accessible
+      const modal = document.getElementById('getStartedModal');
+      if (!modal || !modal.classList.contains('show')) {
+        alert('Please open the Get Started modal first.');
         return;
       }
 
-      // Close modal
-      const modal = bootstrap.Modal.getInstance(document.getElementById('getStartedModal'));
-      modal.hide();
-
-      // Scroll to contact section and populate form
-      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
-
-      // Populate contact form
-      document.getElementById('name-field').value = fullName;
-      document.getElementById('email-field').value = email;
-      document.getElementById('phone-field').value = phone;
-
-      // Create message
-      let message = `Service: ${services}\nPreferred Time: ${preferredTime || 'Not specified'}\nPreferred Language: ${preferredLanguage}`;
-      if (selectedAddons.length > 0) {
-        message += `\nAdd-ons: ${selectedAddons.join(', ')}`;
+      // Check if form exists
+      const form = document.getElementById('getStartedForm');
+      if (!form) {
+        console.error('Form not found');
+        alert('Form error: Please refresh the page and try again.');
+        return;
       }
-      document.getElementById('message-field').value = message;
 
-      // Show success message or alert
-      setTimeout(() => {
-        alert('Form data has been populated in the contact section. Please review and submit.');
-      }, 1000);
+      console.log('Modal and form check passed');
+
+      // Get form data
+      console.log('Getting form elements...');
+      const fullName = document.getElementById('fullName');
+      const phone = document.getElementById('phone');
+      const email = document.getElementById('email');
+      const services = document.getElementById('serviceSelect');
+      const preferredTime = document.getElementById('preferredTime');
+      const preferredLanguage = document.getElementById('preferredLanguage');
+
+      console.log('Elements found:', {
+        fullName: !!fullName,
+        phone: !!phone,
+        email: !!email,
+        services: !!services,
+        preferredTime: !!preferredTime,
+        preferredLanguage: !!preferredLanguage
+      });
+
+      // Check for duplicate IDs
+      const allServices = document.querySelectorAll('#serviceSelect');
+      console.log('Services elements found:', allServices.length, allServices);
+
+      if (allServices.length > 1) {
+        console.warn('Multiple elements with ID "serviceSelect" found!');
+      }
+
+      // Check if elements exist
+      if (!fullName || !phone || !email || !services) {
+        console.error('Form elements not found:', { fullName: !!fullName, phone: !!phone, email: !!email, services: !!services });
+        alert('Form error: Please refresh the page and try again.');
+        return;
+      }
+
+      // Get values
+      const fullNameValue = fullName.value.trim();
+      const phoneValue = phone.value.trim();
+      const emailValue = email.value.trim();
+      const servicesValue = services ? services.value : 'ELEMENT_NOT_FOUND';
+
+      // Debug: Log form values and element details
+      console.log('Form values:', { fullNameValue, phoneValue, emailValue, servicesValue });
+      console.log('Element details:', {
+        fullName: { exists: !!fullName, value: fullName ? fullName.value : 'N/A' },
+        phone: { exists: !!phone, value: phone ? phone.value : 'N/A' },
+        email: { exists: !!email, value: email ? email.value : 'N/A' },
+        services: { exists: !!services, value: services ? services.value : 'N/A', tagName: services ? services.tagName : 'N/A' }
+      });
+
+      // Validate required fields
+      if (!fullNameValue || !phoneValue || !emailValue || !servicesValue || servicesValue === 'ELEMENT_NOT_FOUND') {
+        console.log('Validation failed:', {
+          fullName: !!fullNameValue,
+          phone: !!phoneValue,
+          email: !!emailValue,
+          services: !!servicesValue && servicesValue !== 'ELEMENT_NOT_FOUND'
+        });
+
+        // Provide specific error message
+        if (servicesValue === 'ELEMENT_NOT_FOUND') {
+          alert('Form error: Service selection field not found. Please refresh the page.');
+        } else if (!servicesValue) {
+          alert('Please select a service from the dropdown.');
+        } else {
+          alert('Please fill in all required fields.');
+        }
+        return;
+      }
+
+      // Show loading state
+      const submitBtn = document.querySelector('#getStartedModal .btn-primary');
+      const originalText = submitBtn.innerHTML;
+      submitBtn.innerHTML = '<i class="bi bi-hourglass-split me-2"></i>Submitting...';
+      submitBtn.disabled = true;
+
+      // Prepare data for submission
+      const formData = new FormData();
+      formData.append('full_name', fullNameValue);
+      formData.append('phone', phoneValue);
+      formData.append('email', emailValue);
+      formData.append('service_interest', servicesValue);
+      formData.append('preferred_time', preferredTime ? preferredTime.value : 'Not specified');
+      formData.append('preferred_language', preferredLanguage ? preferredLanguage.value : 'English');
+      formData.append('add_ons', 'None');
+
+      // Submit to backend
+      fetch('backend/submit_get_started.php', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          // Close modal
+          const modal = bootstrap.Modal.getInstance(document.getElementById('getStartedModal'));
+          modal.hide();
+
+          // Show success message
+          alert('Thank you! Your request has been submitted successfully. We\'ll get back to you within 24 hours.');
+
+          // Reset form
+          document.getElementById('getStartedForm').reset();
+        } else {
+          alert('Error: ' + (data.message || 'Failed to submit request. Please try again.'));
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        alert('Network error. Please check your connection and try again.');
+      })
+      .finally(() => {
+        // Reset button state
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+      });
     }
 
     function claimDiwaliOffer() {
-      // Close modal
-      const modal = bootstrap.Modal.getInstance(document.getElementById('diwaliOfferModal'));
-      modal.hide();
 
       // Scroll to contact section
       document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
@@ -1505,6 +1961,38 @@
         alert('🎊 Diwali Offer Claimed! 🎊\n\nYour contact form has been pre-filled with the Diwali offer details.\nPlease complete your business information and submit to claim your FREE website!\n\nOnly 5 spots remaining - First come, first served!');
       }, 1000);
     }
+
+    // Focus on Get Started button when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      const getStartedBtn = document.querySelector('.btn-get-started');
+      if (getStartedBtn) {
+        // Small delay to ensure page is fully loaded
+        setTimeout(() => {
+          getStartedBtn.focus();
+          // Optional: Add visual indication
+          getStartedBtn.style.boxShadow = '0 0 0 3px rgba(13, 110, 253, 0.25)';
+        }, 100);
+      }
+
+      // Add modal event listener to check when modal opens
+      const getStartedModal = document.getElementById('getStartedModal');
+      if (getStartedModal) {
+        getStartedModal.addEventListener('shown.bs.modal', function() {
+          console.log('Get Started modal opened');
+          // Check if form elements are accessible
+          const fullName = document.getElementById('fullName');
+          const phone = document.getElementById('phone');
+          const email = document.getElementById('email');
+          const services = document.getElementById('services');
+          console.log('Form elements check:', {
+            fullName: !!fullName,
+            phone: !!phone,
+            email: !!email,
+            services: !!services
+          });
+        });
+      }
+    });
   </script>
 
   <!-- Diwali Offer Modal -->
