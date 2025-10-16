@@ -83,6 +83,28 @@ CREATE TABLE IF NOT EXISTS contact (
 );
 
 -- ===========================================
+-- 6. contact_submissions - Store contact form submissions
+-- ===========================================
+CREATE TABLE IF NOT EXISTS contact_submissions (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    phone VARCHAR(15),
+    preferred_time VARCHAR(50),
+    preferred_language VARCHAR(50),
+    message TEXT NOT NULL,
+    contact_type ENUM('general', 'support', 'sales', 'partnership', 'other') DEFAULT 'general',
+    status ENUM('new', 'read', 'replied', 'closed') DEFAULT 'new',
+    priority ENUM('low', 'medium', 'high', 'urgent') DEFAULT 'medium',
+    submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    ip_address VARCHAR(45),
+    user_agent TEXT,
+    INDEX idx_email (email),
+    INDEX idx_status (status),
+    INDEX idx_submitted_at (submitted_at)
+);
+
+-- ===========================================
 -- 7. admin - Table to track all the details (created first for foreign keys)
 -- ===========================================
 CREATE TABLE IF NOT EXISTS admin (
@@ -296,6 +318,23 @@ CREATE TABLE IF NOT EXISTS system_settings (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     INDEX idx_setting_key (setting_key),
     FOREIGN KEY (updated_by) REFERENCES admin(id) ON DELETE SET NULL
+);
+
+-- ===========================================
+-- 15. activity_log - Log all system activities and user actions
+-- ===========================================
+CREATE TABLE IF NOT EXISTS activity_log (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    action VARCHAR(100) NOT NULL,
+    details TEXT,
+    user_id INT,
+    ip_address VARCHAR(45),
+    user_agent TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    INDEX idx_action (action),
+    INDEX idx_user_id (user_id),
+    INDEX idx_created_at (created_at),
+    FOREIGN KEY (user_id) REFERENCES admin(id) ON DELETE SET NULL
 );
 
 -- ===========================================

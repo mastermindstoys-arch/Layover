@@ -78,7 +78,7 @@
             <ul>
               <li><a href="#">Developers</a></li>
               <li><a href="#">Clients</a></li>
-              <li><a href="#">Admin</a></li>
+              <li><a href="#" data-bs-toggle="modal" data-bs-target="#adminLoginModal">Admin</a></li>
             </ul>
           </li>
         </ul>
@@ -1527,6 +1527,41 @@
     </div>
   </div>
 
+  <!-- Admin Login Modal -->
+  <div class="modal fade" id="adminLoginModal" tabindex="-1" aria-labelledby="adminLoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="adminLoginModalLabel">
+            <i class="bi bi-shield-lock"></i> Admin Login
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="loginAlert" class="alert" style="display: none;"></div>
+          <form id="adminLoginForm">
+            <div class="mb-3">
+              <label for="adminUsername" class="form-label">Username or Email</label>
+              <input type="text" class="form-control" id="adminUsername" name="username" required>
+            </div>
+            <div class="mb-3">
+              <label for="adminPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="adminPassword" name="password" required>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary" id="loginBtn">
+                <i class="bi bi-box-arrow-in-right"></i> Login
+              </button>
+            </div>
+          </form>
+          <div class="text-center mt-3">
+            <small class="text-muted">Default: admin / password</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -1992,6 +2027,65 @@
           });
         });
       }
+    });
+  </script>
+
+  <!-- Admin Login JavaScript -->
+  <script>
+    document.getElementById('adminLoginForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const loginBtn = document.getElementById('loginBtn');
+      const loginAlert = document.getElementById('loginAlert');
+      const originalText = loginBtn.innerHTML;
+
+      // Show loading state
+      loginBtn.innerHTML = '<i class="bi bi-hourglass-split"></i> Logging in...';
+      loginBtn.disabled = true;
+
+      // Hide previous alerts
+      loginAlert.style.display = 'none';
+
+      // Get form data
+      const formData = new FormData(this);
+
+      // Send login request
+      fetch('admin/login.php', {
+        method: 'POST',
+        headers: {
+          'X-Requested-With': 'XMLHttpRequest'
+        },
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          // Successful login - redirect to dashboard
+          window.location.href = 'admin/dashboard.php';
+        } else {
+          // Login failed
+          loginAlert.className = 'alert alert-danger';
+          loginAlert.innerHTML = '<i class="bi bi-exclamation-triangle"></i> ' + (data.message || 'Login failed. Please try again.');
+          loginAlert.style.display = 'block';
+        }
+      })
+      .catch(error => {
+        console.error('Login error:', error);
+        loginAlert.className = 'alert alert-danger';
+        loginAlert.innerHTML = '<i class="bi bi-exclamation-triangle"></i> Network error. Please try again.';
+        loginAlert.style.display = 'block';
+      })
+      .finally(() => {
+        // Reset button state
+        loginBtn.innerHTML = originalText;
+        loginBtn.disabled = false;
+      });
+    });
+
+    // Clear form when modal is closed
+    document.getElementById('adminLoginModal').addEventListener('hidden.bs.modal', function() {
+      document.getElementById('adminLoginForm').reset();
+      document.getElementById('loginAlert').style.display = 'none';
     });
   </script>
 
