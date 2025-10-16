@@ -3,12 +3,20 @@ session_start();
 
 // Check if already logged in
 if (isset($_SESSION['admin_logged_in'])) {
-    header('Location: dashboard.php');
-    exit;
+    $isAjax = isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest';
+    if ($isAjax) {
+        header('Content-Type: application/json');
+        echo json_encode(['success' => true, 'message' => 'Already logged in']);
+        exit;
+    } else {
+        header('Location: dashboard.php');
+        exit;
+    }
 }
 
 // Handle AJAX login requests
-$isAjax = isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest';
+$isAjax = (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest') ||
+          (isset($_SERVER['HTTP_CONTENT_TYPE']) && strpos($_SERVER['HTTP_CONTENT_TYPE'], 'multipart/form-data') !== false);
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && $isAjax) {
     require_once '../backend/config.php';

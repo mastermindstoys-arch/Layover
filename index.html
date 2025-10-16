@@ -2057,15 +2057,30 @@
         },
         body: formData
       })
-      .then(response => response.json())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.text(); // First get as text to check
+      })
       .then(data => {
-        if (data.success) {
-          // Successful login - redirect to dashboard
-          window.location.href = 'admin/dashboard.php';
-        } else {
-          // Login failed
+        // Try to parse as JSON
+        try {
+          const jsonData = JSON.parse(data);
+          if (jsonData.success) {
+            // Successful login or already logged in - redirect to dashboard
+            window.location.href = 'admin/dashboard.php';
+          } else {
+            // Login failed
+            loginAlert.className = 'alert alert-danger';
+            loginAlert.innerHTML = '<i class="bi bi-exclamation-triangle"></i> ' + (jsonData.message || 'Login failed. Please try again.');
+            loginAlert.style.display = 'block';
+          }
+        } catch (e) {
+          // If not JSON, it's probably HTML (error page)
+          console.error('Response is not JSON:', data.substring(0, 200));
           loginAlert.className = 'alert alert-danger';
-          loginAlert.innerHTML = '<i class="bi bi-exclamation-triangle"></i> ' + (data.message || 'Login failed. Please try again.');
+          loginAlert.innerHTML = '<i class="bi bi-exclamation-triangle"></i> Login failed. Please try again.';
           loginAlert.style.display = 'block';
         }
       })
