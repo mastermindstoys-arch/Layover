@@ -1,102 +1,83 @@
 <?php
-/**
- * Get Started Form Handler
- * Handles submissions from the Get Started modal
- * Created: October 16, 2025
- */
-
-require_once 'config.php';
+header('Content-Type: application/json');
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: POST');
+header('Access-Control-Allow-Headers: Content-Type');
 
 // Only allow POST requests
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    sendJsonResponse(false, 'Method not allowed', null, 405);
-}
-
-// Get and sanitize form data
-$full_name = sanitizeInput($_POST['full_name'] ?? '');
-$phone = sanitizeInput($_POST['phone'] ?? '');
-$email = sanitizeInput($_POST['email'] ?? '');
-$service_interest = sanitizeInput($_POST['service_interest'] ?? '');
-$preferred_time = sanitizeInput($_POST['preferred_time'] ?? '');
-$preferred_language = sanitizeInput($_POST['preferred_language'] ?? '');
-
-// Validate required fields
-$errors = [];
-
-if (empty($full_name)) {
-    $errors[] = 'Full name is required';
-}
-
-if (empty($phone)) {
-    $errors[] = 'Phone number is required';
-}
-
-if (empty($email)) {
-    $errors[] = 'Email is required';
-} elseif (!validateEmail($email)) {
-    $errors[] = 'Please enter a valid email address';
-}
-
-if (empty($service_interest)) {
-    $errors[] = 'Service interest is required';
-}
-
-if (!empty($errors)) {
-    sendJsonResponse(false, 'Validation failed', ['errors' => $errors], 400);
+    http_response_code(405);
+    echo json_encode(['success' => false, 'message' => 'Method not allowed']);
+    exit;
 }
 
 try {
-    $db = getDB();
+    // Get form data
+    $full_name = trim($_POST['full_name'] ?? '');
+    $email = trim($_POST['email'] ?? '');
+    $phone = trim($_POST['phone'] ?? '');
+    $service_interest = trim($_POST['service_interest'] ?? '');
+    $preferred_time = trim($_POST['preferred_time'] ?? '');
+    $preferred_language = trim($_POST['preferred_language'] ?? '');
+    $add_ons = trim($_POST['add_ons'] ?? '');
 
-    // Check if email already exists (optional - you can remove this if you want to allow multiple submissions)
-    $stmt = $db->prepare("SELECT id FROM get_started WHERE email = ? AND submitted_at > DATE_SUB(NOW(), INTERVAL 24 HOUR)");
-    $stmt->execute([$email]);
-
-    if ($stmt->rowCount() > 0) {
-        sendJsonResponse(false, 'You have already submitted a request in the last 24 hours. We will contact you soon!', null, 429);
+    // Basic validation
+    if (empty($full_name) || empty($email) || empty($phone) || empty($service_interest)) {
+        http_response_code(400);
+        echo json_encode(['success' => false, 'message' => 'All required fields must be filled']);
+        exit;
     }
 
-    // Insert the form data
-    $stmt = $db->prepare("
-        INSERT INTO get_started (
-            full_name, phone, email, service_interest,
-            preferred_time, preferred_language, ip_address, user_agent
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-    ");
+    // Email validation
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        http_response_code(400);
+        echo json_encode(['success' => false, 'message' => 'Invalid email address']);
+        exit;
+    }
+
+    // Phone validation (10 digits)
+    if (!preg_match('/^[0-9]{10}$/', $phone)) {
+        http_response_code(400);
+        echo json_encode(['success' => false, 'message' => 'Invalid phone number']);
+        exit;
+    }
+
+    // Connect to database
+    require_once 'config.php';
+    $db = getDB();
+
+    // Prepare notes field (combine add_ons if provided)
+    $notes = '';
+    if (!empty($add_ons) && $add_ons !== 'None') {
+        $notes = 'Add-ons: ' . $add_ons;
+    }
+
+    // Insert get started submission
+    $stmt = $db->prepare("INSERT INTO get_started (full_name, email, phone, service_interest, preferred_time, preferred_language, notes, submitted_at) VALUES (?, ?, ?, ?, ?, ?, ?, NOW())");
 
     $result = $stmt->execute([
         $full_name,
-        $phone,
         $email,
+        $phone,
         $service_interest,
         $preferred_time ?: null,
-        $preferred_language ?: null,
-        getClientIP(),
-        $_SERVER['HTTP_USER_AGENT'] ?? ''
+        $preferred_language ?: 'English',
+        $notes ?: null
     ]);
 
     if ($result) {
-        $submission_id = $db->lastInsertId();
-
-        // Log the activity
-        logActivity('get_started_form_submitted', "New get started form submission from {$full_name} ({$email})", null);
-
-        // You can add email notification here if needed
-        // sendNotificationEmail($email, $full_name, $service_interest);
-
-        sendJsonResponse(true, 'Thank you for your interest! We will contact you within 24 hours.', [
-            'submission_id' => $submission_id,
-            'submitted_at' => date('Y-m-d H:i:s')
+        echo json_encode([
+            'success' => true,
+            'message' => 'Thank you for your interest! We\'ll get back to you within 24 hours.'
         ]);
     } else {
-        sendJsonResponse(false, 'Failed to save your request. Please try again.', null, 500);
+        http_response_code(500);
+        echo json_encode(['success' => false, 'message' => 'Failed to save your request. Please try again.']);
     }
 
-} catch (PDOException $e) {
-    error_log("Database error in get_started handler: " . $e->getMessage());
-    sendJsonResponse(false, 'A database error occurred. Please try again later.', null, 500);
 } catch (Exception $e) {
-    error_log("General error in get_started handler: " . $e->getMessage());
-    sendJsonResponse(false, 'An unexpected error occurred. Please try again later.', null, 500);
+    error_log('Get Started form submission error: ' . $e->getMessage());
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => 'An error occurred. Please try again later.']);
 }
 ?>

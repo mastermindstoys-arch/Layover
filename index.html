@@ -160,7 +160,7 @@
           <div class="swiper-wrapper align-items-center">
             
             <div class="swiper-slide client-brand"><a href="https://lpr-designs.vercel.app/" target="_blank" class="client-name">LPR Design accessories</a></div>
-            <div class="swiper-slide client-brand"><a href="https://ak-mobiles-pyr.vercel.app/" target="_blank" class="client-name">AK Mobiles Premium Store</a></div>
+            <div class="swiper-slide client-brand"><a href="https://ak-mobiles-pyr.vercel.app/" target="_blank" class="client-name">AK Mobiles Store</a></div>
             <div class="swiper-slide client-brand"><a href="https://www.mastermindstoys.in" target="_blank" class="client-name">Masterminds Toys</a></div>
           <style>
     .client-brand {
@@ -1528,20 +1528,20 @@
   </div>
 
   <!-- Admin Login Modal -->
-  <div class="modal fade" id="adminLoginModal" tabindex="-1" aria-labelledby="adminLoginModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header bg-primary text-white">
+  <div class="modal fade" id="adminLoginModal" tabindex="-1" aria-labelledby="adminLoginModalLabel" aria-hidden="true" style="--bs-modal-bg: rgba(0, 0, 0, 0.3);">
+    <div class="modal-dialog modal-dialog-centered modal-sm">
+      <div class="modal-content" style="background: transparent; border: none; box-shadow: none;">
+        <div class="modal-header bg-primary text-white" style="background: rgba(13, 110, 253, 0.9) !important; border: none;">
           <h5 class="modal-title" id="adminLoginModalLabel">
-            <i class="bi bi-shield-lock"></i> Admin Login
+            Login
           </h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body" style="background: rgba(255, 255, 255, 0.95); border-radius: 0 0 0.375rem 0.375rem;">
           <div id="loginAlert" class="alert" style="display: none;"></div>
           <form id="adminLoginForm">
             <div class="mb-3">
-              <label for="adminUsername" class="form-label">Username or Email</label>
+              <label for="adminUsername" class="form-label">Username</label>
               <input type="text" class="form-control" id="adminUsername" name="username" required>
             </div>
             <div class="mb-3">
@@ -1550,13 +1550,10 @@
             </div>
             <div class="d-grid">
               <button type="submit" class="btn btn-primary" id="loginBtn">
-                <i class="bi bi-box-arrow-in-right"></i> Login
+                Login
               </button>
             </div>
           </form>
-          <div class="text-center mt-3">
-            <small class="text-muted">Default: admin / password</small>
-          </div>
         </div>
       </div>
     </div>
@@ -2048,14 +2045,20 @@
 
       // Get form data
       const formData = new FormData(this);
+      const data = new URLSearchParams();
+      for (let [key, value] of formData.entries()) {
+        data.append(key, value);
+      }
 
       // Send login request
       fetch('admin/login.php', {
         method: 'POST',
         headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
           'X-Requested-With': 'XMLHttpRequest'
         },
-        body: formData
+        credentials: 'same-origin',
+        body: data.toString()
       })
       .then(response => {
         if (!response.ok) {
@@ -2103,6 +2106,41 @@
       document.getElementById('loginAlert').style.display = 'none';
     });
   </script>
+
+  <!-- Admin Login Modal -->
+  <div class="modal fade" id="adminLoginModal" tabindex="-1" aria-labelledby="adminLoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="adminLoginModalLabel">
+            <i class="bi bi-shield-lock me-2"></i>Admin Login
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="loginAlert" class="alert" style="display: none;"></div>
+          <form id="adminLoginForm">
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control" id="username" name="username" required placeholder="Enter username">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" name="password" required placeholder="Enter password">
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary" id="loginBtn">
+                <i class="bi bi-box-arrow-in-right me-2"></i>Login
+              </button>
+            </div>
+          </form>
+          <div class="text-center mt-3">
+            <small class="text-muted">Default credentials: admin / password</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Diwali Offer Modal -->
   <div class="modal fade" id="diwaliOfferModal" tabindex="-1" aria-labelledby="diwaliOfferModalLabel" aria-hidden="true">
